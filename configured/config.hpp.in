@@ -1,0 +1,11 @@
+#pragma once
+
+#include <cstdint>
+//#include <string_view>
+
+static std::string project_name = "@PROJECT_NAME@";
+static std::string project_version = "@PROJECT_VERSION@";
+static std::int32_t project_version_major{ @PROJECT_VERSION_MAJOR@ };
+static std::int32_t project_version_minor{ @PROJECT_VERSION_MINOR@ };
+static std::int32_t project_version_patch{ @PROJECT_VERSION_PATCH@ };
+static std::string git_sha = "@GIT_SHA@";

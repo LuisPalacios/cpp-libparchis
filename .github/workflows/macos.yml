@@ -1,0 +1,31 @@
+name: CI Tests MacOS
+
+on:
+    push:
+        branches: [main, master, dev]
+    pull_request:
+        branches: [main, master, dev]
+
+jobs:
+    build:
+        runs-on: macos-14
+        steps:
+            - uses: actions/checkout@v4
+            - name: Preparar
+              run: |
+                  make prepare
+            - name: Instalar Libboost
+              run: |
+                  brew update
+                  brew install boost
+            - name: Configurar CMake
+              run: |
+                  cmake -H. -Bbuild -G "Unix Makefiles" -DCMAKE_BUILD_TYPE="Debug"
+            - name: Compilar
+              run: |
+                  cmake --build build --config Debug --target unit_tests -j4
+            - name: Arrancar los Unit Tests
+              run: |
+                  cd build
+                  cd tests
+                  ./unit_tests

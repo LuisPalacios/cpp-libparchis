@@ -1,0 +1,35 @@
+name: CI Tests Ubuntu
+
+on:
+    push:
+        branches: [main, master, dev]
+    pull_request:
+        branches: [main, master, dev]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: install
+              run: |
+                  sudo apt-get install gcovr lcov libboost-all-dev
+            - name: prepare
+              run: |
+                  make prepare
+            - name: configure
+              run: |
+                  cmake -H. -Bbuild -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DENABLE_COVERAGE=On
+            - name: building
+              run: |
+                  cmake --build build --config Debug --target coverage -j4
+            - name: testing
+              run: |
+                  cd build
+                  cd tests
+                  ./unit_tests
+            - name: Upload coverage reports to Codecov
+              uses: codecov/codecov-action@v4.0.1
+              with:
+                  token: ${{ secrets.CODECOV_TOKEN }}
+                  slug: LuisPalacios/CppPlantilla
