@@ -1,6 +1,11 @@
 configure_file(
-    "config.hpp.in" "${CMAKE_BINARY_DIR}/configured_files/include/config.hpp"
+    "config.hpp.in"
+    "${CMAKE_BINARY_DIR}/configured_files/include/config.hpp"
     ESCAPE_QUOTES)
+
+SET(GITVERSION_FULL "v0.0.0-0-00000000")
+SET(GITVERSION_TAG "v0.0.0")
+SET(GITVERSION_COMMIT "00000000")
 
 IF(EXISTS ${CMAKE_SOURCE_DIR}/.git)
   FIND_PACKAGE(Git)
@@ -27,14 +32,16 @@ IF(EXISTS ${CMAKE_SOURCE_DIR}/.git)
         OUTPUT_STRIP_TRAILING_WHITESPACE)
 
     MESSAGE( STATUS "Git version: ${GITVERSION_FULL}" )
-  ELSE(GIT_FOUND)
-      SET(GITVERSION_FULL "v0.0.0-0-00000000")
-      SET(GITVERSION_TAG "v0.0.0")
-      SET(GITVERSION_COMMIT "00000000")
   ENDIF(GIT_FOUND)
 ENDIF(EXISTS ${CMAKE_SOURCE_DIR}/.git)
 
 CONFIGURE_FILE(
     "gitversion.hpp.in"
     "${CMAKE_BINARY_DIR}/configured_files/include/gitversion.hpp"
+    ESCAPE_QUOTES)
+
+MESSAGE( STATUS "Git TAG: ${GITVERSION_TAG} para el Doxyfile !!!!!!!!" )
+configure_file(
+    "Doxyfile.in"
+    "${CMAKE_SOURCE_DIR}/docs/Doxyfile"
     ESCAPE_QUOTES)
