@@ -22,7 +22,6 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Librería Parchis C++
-   &#160;<span id="projectnumber">1.5.0</span>
    </div>
   </td>
  </tr>
@@ -71,102 +70,102 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="PVersion_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor">#ifndef PVERSION_H</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">#define PVERSION_H</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160; </div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160; </div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor">#pragma mark ====== INCLUDES</span></div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment">// Standard includes</span></div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">#include &lt;regex&gt;</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="comment">// My includes</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="PDebug_8h.html">PDebug.h</a>&quot;</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor">#include &quot;gitversion.hpp&quot;</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160; </div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160; </div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">#pragma mark ====== CLASS PSnapshot</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160; </div>
-<div class="line"><a name="l00275"></a><span class="lineno"><a class="line" href="classPVersion.html">  275</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPVersion.html">PVersion</a></div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;{</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor">#pragma mark ====== PRIVATE INSTANCE MEMBERS</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="comment">// DEBUGGING purposes</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160; </div>
-<div class="line"><a name="l00282"></a><span class="lineno"><a class="line" href="classPVersion.html#a0309596f2b6394defeb8d76eba912da2">  282</a></span>&#160;    <a class="code" href="classPDebug.html">PDebug</a> <a class="code" href="classPVersion.html#a0309596f2b6394defeb8d76eba912da2">dbg</a>;             </div>
-<div class="line"><a name="l00283"></a><span class="lineno"><a class="line" href="classPVersion.html#a19b369c79fabe4660adbc0bd1f8988bf">  283</a></span>&#160;    std::ostringstream <a class="code" href="classPVersion.html#a19b369c79fabe4660adbc0bd1f8988bf">oss</a>; </div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160; </div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="comment">// STATIC PRIVATE ATTRIBUTES (For ivar&#39;s use comments for doxygen: //!&lt;)</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="classPVersion.html#a6d5dec08cb77a39685bac2e25311cebc">  287</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="classPVersion.html#a6d5dec08cb77a39685bac2e25311cebc">version</a>; </div>
-<div class="line"><a name="l00288"></a><span class="lineno"><a class="line" href="classPVersion.html#a511da2b0c632abed2d5b9a7e20d5e844">  288</a></span>&#160;    std::string <a class="code" href="classPVersion.html#a511da2b0c632abed2d5b9a7e20d5e844">version_full</a> =</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        GITVERSION_FULL; </div>
-<div class="line"><a name="l00290"></a><span class="lineno"><a class="line" href="classPVersion.html#ad8c968e3fb814b0e433b8ca125698617">  290</a></span>&#160;    std::string <a class="code" href="classPVersion.html#ad8c968e3fb814b0e433b8ca125698617">version_tag</a> =</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        GITVERSION_TAG; </div>
-<div class="line"><a name="l00292"></a><span class="lineno"><a class="line" href="classPVersion.html#a7bd6e9c45f484b408c012ad77e3cb65c">  292</a></span>&#160;    std::string <a class="code" href="classPVersion.html#a7bd6e9c45f484b408c012ad77e3cb65c">version_commit</a> =</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        GITVERSION_COMMIT; </div>
-<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="classPVersion.html#adcf9ac9beef5a8b6ab2a2fc07a661029">  294</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#adcf9ac9beef5a8b6ab2a2fc07a661029">version_major</a> =</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        0; </div>
-<div class="line"><a name="l00296"></a><span class="lineno"><a class="line" href="classPVersion.html#a4bccbcf3425f8eaa3f844805fe65b548">  296</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#a4bccbcf3425f8eaa3f844805fe65b548">version_minor</a> =</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        0; </div>
-<div class="line"><a name="l00298"></a><span class="lineno"><a class="line" href="classPVersion.html#a66ce9256d422af1b380ad14ef67f1f3f">  298</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#a66ce9256d422af1b380ad14ef67f1f3f">version_patch</a> =</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        0; </div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160; </div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">#pragma mark ====== PUBLIC INSTANCE METHODS</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="comment">// CONSTRUCTORS/DESTRUCTOR</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160; </div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <a class="code" href="classPVersion.html#a8b7ee48cc4399b2b5b27c2c1265a3278">PVersion</a>();          <span class="comment">// Constructor</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classPVersion.html#a881dd48681218526a24637a08b1ba1a7">~PVersion</a>(); <span class="comment">// Destructor</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160; </div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <span class="comment">// Getter</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="classPVersion.html#a01a2c27617961497a0b707fce9340480">getVersion</a>();</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    std::string <a class="code" href="classPVersion.html#a297b10cdbe26ac2486870e0c632bd63d">getVersionFull</a>();</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    std::string <a class="code" href="classPVersion.html#a780eb457a9c739c064140801f9aec817">getVersionTag</a>();</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    std::string <a class="code" href="classPVersion.html#a72c2e206ccb7128cc81ae847a636d881">getVersionCommit</a>();</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#a32b67acac8afcb293f1b54a45710445b">getVersionMajor</a>();</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#a4069c7c64ebfdeacf25b8e702f660d87">getVersionMinor</a>();</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#acfdfdc3afe908ea2b1a7ada6a4308bad">getVersionPatch</a>();</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;};</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160; </div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160; </div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// PVERSION_H</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#ifndef PVERSION_H</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor">#define PVERSION_H</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor">#pragma mark ====== INCLUDES</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="comment">// Standard includes</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor">#include &lt;regex&gt;</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">// My includes</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="PDebug_8h.html">PDebug.h</a>&quot;</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor">#include &quot;gitversion.hpp&quot;</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="preprocessor">#pragma mark ====== CLASS PSnapshot</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="classPVersion.html">  160</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPVersion.html">PVersion</a></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;{</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160; </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor">#pragma mark ====== PRIVATE INSTANCE MEMBERS</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="comment">// DEBUGGING purposes</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno"><a class="line" href="classPVersion.html#a0309596f2b6394defeb8d76eba912da2">  167</a></span>&#160;    <a class="code" href="classPDebug.html">PDebug</a> <a class="code" href="classPVersion.html#a0309596f2b6394defeb8d76eba912da2">dbg</a>;             </div>
+<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="classPVersion.html#a19b369c79fabe4660adbc0bd1f8988bf">  168</a></span>&#160;    std::ostringstream <a class="code" href="classPVersion.html#a19b369c79fabe4660adbc0bd1f8988bf">oss</a>; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="comment">// STATIC PRIVATE ATTRIBUTES (For ivar&#39;s use comments for doxygen: //!&lt;)</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno"><a class="line" href="classPVersion.html#a6d5dec08cb77a39685bac2e25311cebc">  172</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="classPVersion.html#a6d5dec08cb77a39685bac2e25311cebc">version</a>; </div>
+<div class="line"><a name="l00173"></a><span class="lineno"><a class="line" href="classPVersion.html#a511da2b0c632abed2d5b9a7e20d5e844">  173</a></span>&#160;    std::string <a class="code" href="classPVersion.html#a511da2b0c632abed2d5b9a7e20d5e844">version_full</a> =</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        GITVERSION_FULL; </div>
+<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="classPVersion.html#ad8c968e3fb814b0e433b8ca125698617">  175</a></span>&#160;    std::string <a class="code" href="classPVersion.html#ad8c968e3fb814b0e433b8ca125698617">version_tag</a> =</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        GITVERSION_TAG; </div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="classPVersion.html#a7bd6e9c45f484b408c012ad77e3cb65c">  177</a></span>&#160;    std::string <a class="code" href="classPVersion.html#a7bd6e9c45f484b408c012ad77e3cb65c">version_commit</a> =</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        GITVERSION_COMMIT; </div>
+<div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="classPVersion.html#adcf9ac9beef5a8b6ab2a2fc07a661029">  179</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#adcf9ac9beef5a8b6ab2a2fc07a661029">version_major</a> =</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        0; </div>
+<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="classPVersion.html#a4bccbcf3425f8eaa3f844805fe65b548">  181</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#a4bccbcf3425f8eaa3f844805fe65b548">version_minor</a> =</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        0; </div>
+<div class="line"><a name="l00183"></a><span class="lineno"><a class="line" href="classPVersion.html#a66ce9256d422af1b380ad14ef67f1f3f">  183</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#a66ce9256d422af1b380ad14ef67f1f3f">version_patch</a> =</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        0; </div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="preprocessor">#pragma mark ====== PUBLIC INSTANCE METHODS</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="comment">// CONSTRUCTORS/DESTRUCTOR</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <a class="code" href="classPVersion.html#a8b7ee48cc4399b2b5b27c2c1265a3278">PVersion</a>();          <span class="comment">// Constructor</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classPVersion.html#a881dd48681218526a24637a08b1ba1a7">~PVersion</a>(); <span class="comment">// Destructor</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="comment">// Getter</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="classPVersion.html#a01a2c27617961497a0b707fce9340480">getVersion</a>();</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    std::string <a class="code" href="classPVersion.html#a297b10cdbe26ac2486870e0c632bd63d">getVersionFull</a>();</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    std::string <a class="code" href="classPVersion.html#a780eb457a9c739c064140801f9aec817">getVersionTag</a>();</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    std::string <a class="code" href="classPVersion.html#a72c2e206ccb7128cc81ae847a636d881">getVersionCommit</a>();</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#a32b67acac8afcb293f1b54a45710445b">getVersionMajor</a>();</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#a4069c7c64ebfdeacf25b8e702f660d87">getVersionMinor</a>();</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPVersion.html#acfdfdc3afe908ea2b1a7ada6a4308bad">getVersionPatch</a>();</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;};</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160; </div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160; </div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// PVERSION_H</span></div>
 <div class="ttc" id="aPDebug_8h_html"><div class="ttname"><a href="PDebug_8h.html">PDebug.h</a></div></div>
 <div class="ttc" id="aclassPDebug_html"><div class="ttname"><a href="classPDebug.html">PDebug</a></div><div class="ttdoc">Parchis Class declaration: Shows debug messages on screen (or in the UI)</div><div class="ttdef"><b>Definition:</b> PDebug.h:111</div></div>
-<div class="ttc" id="aclassPVersion_html"><div class="ttname"><a href="classPVersion.html">PVersion</a></div><div class="ttdef"><b>Definition:</b> PVersion.h:276</div></div>
+<div class="ttc" id="aclassPVersion_html"><div class="ttname"><a href="classPVersion.html">PVersion</a></div><div class="ttdoc">Parchis Class: To stablish the semantic versioning and build.</div><div class="ttdef"><b>Definition:</b> PVersion.h:161</div></div>
 <div class="ttc" id="aclassPVersion_html_a01a2c27617961497a0b707fce9340480"><div class="ttname"><a href="classPVersion.html#a01a2c27617961497a0b707fce9340480">PVersion::getVersion</a></div><div class="ttdeci">const char * getVersion()</div><div class="ttdef"><b>Definition:</b> PVersion.cpp:63</div></div>
-<div class="ttc" id="aclassPVersion_html_a0309596f2b6394defeb8d76eba912da2"><div class="ttname"><a href="classPVersion.html#a0309596f2b6394defeb8d76eba912da2">PVersion::dbg</a></div><div class="ttdeci">PDebug dbg</div><div class="ttdoc">To be able to send Log messages.</div><div class="ttdef"><b>Definition:</b> PVersion.h:282</div></div>
-<div class="ttc" id="aclassPVersion_html_a19b369c79fabe4660adbc0bd1f8988bf"><div class="ttname"><a href="classPVersion.html#a19b369c79fabe4660adbc0bd1f8988bf">PVersion::oss</a></div><div class="ttdeci">std::ostringstream oss</div><div class="ttdoc">Construct complex strings.</div><div class="ttdef"><b>Definition:</b> PVersion.h:283</div></div>
+<div class="ttc" id="aclassPVersion_html_a0309596f2b6394defeb8d76eba912da2"><div class="ttname"><a href="classPVersion.html#a0309596f2b6394defeb8d76eba912da2">PVersion::dbg</a></div><div class="ttdeci">PDebug dbg</div><div class="ttdoc">To be able to send Log messages.</div><div class="ttdef"><b>Definition:</b> PVersion.h:167</div></div>
+<div class="ttc" id="aclassPVersion_html_a19b369c79fabe4660adbc0bd1f8988bf"><div class="ttname"><a href="classPVersion.html#a19b369c79fabe4660adbc0bd1f8988bf">PVersion::oss</a></div><div class="ttdeci">std::ostringstream oss</div><div class="ttdoc">Construct complex strings.</div><div class="ttdef"><b>Definition:</b> PVersion.h:168</div></div>
 <div class="ttc" id="aclassPVersion_html_a297b10cdbe26ac2486870e0c632bd63d"><div class="ttname"><a href="classPVersion.html#a297b10cdbe26ac2486870e0c632bd63d">PVersion::getVersionFull</a></div><div class="ttdeci">std::string getVersionFull()</div><div class="ttdef"><b>Definition:</b> PVersion.cpp:75</div></div>
 <div class="ttc" id="aclassPVersion_html_a32b67acac8afcb293f1b54a45710445b"><div class="ttname"><a href="classPVersion.html#a32b67acac8afcb293f1b54a45710445b">PVersion::getVersionMajor</a></div><div class="ttdeci">int getVersionMajor()</div><div class="ttdef"><b>Definition:</b> PVersion.cpp:111</div></div>
 <div class="ttc" id="aclassPVersion_html_a4069c7c64ebfdeacf25b8e702f660d87"><div class="ttname"><a href="classPVersion.html#a4069c7c64ebfdeacf25b8e702f660d87">PVersion::getVersionMinor</a></div><div class="ttdeci">int getVersionMinor()</div><div class="ttdef"><b>Definition:</b> PVersion.cpp:123</div></div>
-<div class="ttc" id="aclassPVersion_html_a4bccbcf3425f8eaa3f844805fe65b548"><div class="ttname"><a href="classPVersion.html#a4bccbcf3425f8eaa3f844805fe65b548">PVersion::version_minor</a></div><div class="ttdeci">int version_minor</div><div class="ttdoc">Minor 2.</div><div class="ttdef"><b>Definition:</b> PVersion.h:296</div></div>
-<div class="ttc" id="aclassPVersion_html_a511da2b0c632abed2d5b9a7e20d5e844"><div class="ttname"><a href="classPVersion.html#a511da2b0c632abed2d5b9a7e20d5e844">PVersion::version_full</a></div><div class="ttdeci">std::string version_full</div><div class="ttdoc">Version number (git describe –tags –long) v1.2.33-0-g3ad9785.</div><div class="ttdef"><b>Definition:</b> PVersion.h:288</div></div>
-<div class="ttc" id="aclassPVersion_html_a66ce9256d422af1b380ad14ef67f1f3f"><div class="ttname"><a href="classPVersion.html#a66ce9256d422af1b380ad14ef67f1f3f">PVersion::version_patch</a></div><div class="ttdeci">int version_patch</div><div class="ttdoc">Path 33.</div><div class="ttdef"><b>Definition:</b> PVersion.h:298</div></div>
-<div class="ttc" id="aclassPVersion_html_a6d5dec08cb77a39685bac2e25311cebc"><div class="ttname"><a href="classPVersion.html#a6d5dec08cb77a39685bac2e25311cebc">PVersion::version</a></div><div class="ttdeci">const char * version</div><div class="ttdoc">Version number.</div><div class="ttdef"><b>Definition:</b> PVersion.h:287</div></div>
+<div class="ttc" id="aclassPVersion_html_a4bccbcf3425f8eaa3f844805fe65b548"><div class="ttname"><a href="classPVersion.html#a4bccbcf3425f8eaa3f844805fe65b548">PVersion::version_minor</a></div><div class="ttdeci">int version_minor</div><div class="ttdoc">Minor 2.</div><div class="ttdef"><b>Definition:</b> PVersion.h:181</div></div>
+<div class="ttc" id="aclassPVersion_html_a511da2b0c632abed2d5b9a7e20d5e844"><div class="ttname"><a href="classPVersion.html#a511da2b0c632abed2d5b9a7e20d5e844">PVersion::version_full</a></div><div class="ttdeci">std::string version_full</div><div class="ttdoc">Version number (git describe –tags –long) v1.2.33-0-g3ad9785.</div><div class="ttdef"><b>Definition:</b> PVersion.h:173</div></div>
+<div class="ttc" id="aclassPVersion_html_a66ce9256d422af1b380ad14ef67f1f3f"><div class="ttname"><a href="classPVersion.html#a66ce9256d422af1b380ad14ef67f1f3f">PVersion::version_patch</a></div><div class="ttdeci">int version_patch</div><div class="ttdoc">Path 33.</div><div class="ttdef"><b>Definition:</b> PVersion.h:183</div></div>
+<div class="ttc" id="aclassPVersion_html_a6d5dec08cb77a39685bac2e25311cebc"><div class="ttname"><a href="classPVersion.html#a6d5dec08cb77a39685bac2e25311cebc">PVersion::version</a></div><div class="ttdeci">const char * version</div><div class="ttdoc">Version number.</div><div class="ttdef"><b>Definition:</b> PVersion.h:172</div></div>
 <div class="ttc" id="aclassPVersion_html_a72c2e206ccb7128cc81ae847a636d881"><div class="ttname"><a href="classPVersion.html#a72c2e206ccb7128cc81ae847a636d881">PVersion::getVersionCommit</a></div><div class="ttdeci">std::string getVersionCommit()</div><div class="ttdef"><b>Definition:</b> PVersion.cpp:99</div></div>
 <div class="ttc" id="aclassPVersion_html_a780eb457a9c739c064140801f9aec817"><div class="ttname"><a href="classPVersion.html#a780eb457a9c739c064140801f9aec817">PVersion::getVersionTag</a></div><div class="ttdeci">std::string getVersionTag()</div><div class="ttdef"><b>Definition:</b> PVersion.cpp:87</div></div>
-<div class="ttc" id="aclassPVersion_html_a7bd6e9c45f484b408c012ad77e3cb65c"><div class="ttname"><a href="classPVersion.html#a7bd6e9c45f484b408c012ad77e3cb65c">PVersion::version_commit</a></div><div class="ttdeci">std::string version_commit</div><div class="ttdoc">Version number (git rev-parse –short HEAD) g3ad9785.</div><div class="ttdef"><b>Definition:</b> PVersion.h:292</div></div>
+<div class="ttc" id="aclassPVersion_html_a7bd6e9c45f484b408c012ad77e3cb65c"><div class="ttname"><a href="classPVersion.html#a7bd6e9c45f484b408c012ad77e3cb65c">PVersion::version_commit</a></div><div class="ttdeci">std::string version_commit</div><div class="ttdoc">Version number (git rev-parse –short HEAD) g3ad9785.</div><div class="ttdef"><b>Definition:</b> PVersion.h:177</div></div>
 <div class="ttc" id="aclassPVersion_html_a881dd48681218526a24637a08b1ba1a7"><div class="ttname"><a href="classPVersion.html#a881dd48681218526a24637a08b1ba1a7">PVersion::~PVersion</a></div><div class="ttdeci">virtual ~PVersion()</div><div class="ttdef"><b>Definition:</b> PVersion.cpp:52</div></div>
 <div class="ttc" id="aclassPVersion_html_a8b7ee48cc4399b2b5b27c2c1265a3278"><div class="ttname"><a href="classPVersion.html#a8b7ee48cc4399b2b5b27c2c1265a3278">PVersion::PVersion</a></div><div class="ttdeci">PVersion()</div><div class="ttdef"><b>Definition:</b> PVersion.cpp:28</div></div>
 <div class="ttc" id="aclassPVersion_html_acfdfdc3afe908ea2b1a7ada6a4308bad"><div class="ttname"><a href="classPVersion.html#acfdfdc3afe908ea2b1a7ada6a4308bad">PVersion::getVersionPatch</a></div><div class="ttdeci">int getVersionPatch()</div><div class="ttdef"><b>Definition:</b> PVersion.cpp:134</div></div>
-<div class="ttc" id="aclassPVersion_html_ad8c968e3fb814b0e433b8ca125698617"><div class="ttname"><a href="classPVersion.html#ad8c968e3fb814b0e433b8ca125698617">PVersion::version_tag</a></div><div class="ttdeci">std::string version_tag</div><div class="ttdoc">Version number (git describe –abbrev=0 –tags) v1.2.33.</div><div class="ttdef"><b>Definition:</b> PVersion.h:290</div></div>
-<div class="ttc" id="aclassPVersion_html_adcf9ac9beef5a8b6ab2a2fc07a661029"><div class="ttname"><a href="classPVersion.html#adcf9ac9beef5a8b6ab2a2fc07a661029">PVersion::version_major</a></div><div class="ttdeci">int version_major</div><div class="ttdoc">Major 1.</div><div class="ttdef"><b>Definition:</b> PVersion.h:294</div></div>
+<div class="ttc" id="aclassPVersion_html_ad8c968e3fb814b0e433b8ca125698617"><div class="ttname"><a href="classPVersion.html#ad8c968e3fb814b0e433b8ca125698617">PVersion::version_tag</a></div><div class="ttdeci">std::string version_tag</div><div class="ttdoc">Version number (git describe –abbrev=0 –tags) v1.2.33.</div><div class="ttdef"><b>Definition:</b> PVersion.h:175</div></div>
+<div class="ttc" id="aclassPVersion_html_adcf9ac9beef5a8b6ab2a2fc07a661029"><div class="ttname"><a href="classPVersion.html#adcf9ac9beef5a8b6ab2a2fc07a661029">PVersion::version_major</a></div><div class="ttdeci">int version_major</div><div class="ttdoc">Major 1.</div><div class="ttdef"><b>Definition:</b> PVersion.h:179</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

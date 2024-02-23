@@ -22,7 +22,6 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Librería Parchis C++
-   &#160;<span id="projectnumber">1.5.0</span>
    </div>
   </td>
  </tr>
@@ -71,13 +70,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="PVersion_8h_source.html">PVersion.cpp</a>&quot;</code></p>
+<p>Parchis Class: To stablish the semantic versioning and build.  
+ <a href="classPVersion.html#details">More...</a></p>
+
+<p><code>#include &quot;<a class="el" href="PVersion_8h_source.html">PVersion.h</a>&quot;</code></p>
 <div class="dynheader">
 Collaboration diagram for PVersion:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPVersion__coll__graph.png" border="0" usemap="#aPVersion_coll__map" alt="Collaboration graph"/></div>
 <map name="aPVersion_coll__map" id="aPVersion_coll__map">
-<area shape="rect" title=" " alt="" coords="5,95,84,121"/>
+<area shape="rect" title="Parchis Class: To stablish the semantic versioning and build." alt="" coords="5,95,84,121"/>
 <area shape="rect" href="classPDebug.html" title="Parchis Class declaration: Shows debug messages on screen (or in the UI)" alt="" coords="9,5,81,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -134,16 +136,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a66ce9256d422af1b380ad14ef67f1f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><pre class="fragment">@class  PVersion PVersion.h "PVersion.h"
-@brief  Parchis Class: To stablish the semantic versioning and build
-
-Belongs to the Library: "Parchis Engine C++ library"
-
-@author  Luis Palacios
-@date    2024/02/23
-
-@par Description
-</pre><p> This class is simply used to return the semantic version and build code of the library.</p>
+<div class="textblock"><p>Parchis Class: To stablish the semantic versioning and build. </p>
+<p>Belongs to the Library: "Parchis Engine C++ library"</p>
+<dl class="section author"><dt>Author</dt><dd>Luis Palacios </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2024/02/23</dd></dl>
+<dl class="section user"><dt>Description</dt><dd></dd></dl>
+<p>This class is simply used to return the semantic version and build code of the library.</p>
 <hr  />
 <p> Semantic Versioning and Git Tags</p>
 <p>There are three parts to a semantic version number: The major number Breaking functionality changes The minor number Backwards compatibly functionality changes The path number Bug fixes and trivial updates</p>
@@ -183,90 +181,7 @@ Belongs to the Library: "Parchis Engine C++ library"
 
  git rev-parse --short HEAD
  g3ad9785
-</pre><p>$ cat &gt; _libcpp_git.sh</p>
-<p>git=/usr/bin/git version=<code>$git describe --tags --long</code> echo '#include "PVersion.h"' &gt; ../PVersion.cpp echo "" &gt;&gt; ../PVersion.cpp echo "" &gt;&gt; ../PVersion.cpp echo "PVersion::PVersion () " &gt;&gt; ../PVersion.cpp echo "{" &gt;&gt; ../PVersion.cpp echo -n ' version = "' &gt;&gt; ../PVersion.cpp echo -n ${version} &gt;&gt; ../PVersion.cpp echo '";'                                    &gt;&gt; ../PVersion.cpp
- echo "}"                                     &gt;&gt; ../PVersion.cpp
- echo ""                                      &gt;&gt; ../PVersion.cpp
- echo "<a class="el" href="classPVersion.html#a881dd48681218526a24637a08b1ba1a7">PVersion::~PVersion</a> () "               &gt;&gt; ../PVersion.cpp
- echo "{"                                     &gt;&gt; ../PVersion.cpp
- echo "}"                                     &gt;&gt; ../PVersion.cpp
- echo ""                                      &gt;&gt; ../PVersion.cpp
- echo "const char* <a class="el" href="classPVersion.html#a01a2c27617961497a0b707fce9340480">PVersion::getVersion</a> ()"   &gt;&gt; ../PVersion.cpp
- echo "{"                                     &gt;&gt; ../PVersion.cpp
- echo " return version;"                   &gt;&gt; ../PVersion.cpp
- echo "}" &gt;&gt; ../PVersion.cpp</p>
-<p>$ chmod 755 _libcpp_git.sh</p>
-<p>2) Invoque it as the first built step in QTCreator</p>
-<p>Projects, build steps, add a step and move it to the first position Enable : Yes Name : Create Version.cpp Command : Complete_path_to_the_script/_libcpp_svnversion.sh or Complete_path_to_the_script/_libcpp_git.sh or Work Dir : %{sourceDir}</p>
-<dl class="section user"><dt>Under XCode</dt><dd>Project-&gt;Target-&gt;Add Target-&gt;Aggregate-&gt;Run Script <div class="fragment"><div class="line">git=/usr/bin/git</div>
-<div class="line"><a class="code" href="classPVersion.html#a6d5dec08cb77a39685bac2e25311cebc">version</a>=`$git describe --tags --<span class="keywordtype">long</span>`</div>
-<div class="line"> </div>
-<div class="line">echo <span class="stringliteral">&quot;/ **                                                                            &quot;</span> &gt;  ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&#39; *  @class  PVersion PVersion.cpp \&quot;PVersion.cpp\&quot;                             &#39;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; *  @file   PVersion.cpp                                                       &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; *  @brief  Parchis Class: Simply used to return the subversion number         &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; *                                                                             &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; *  ---------------------------------------------------------------------------&quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; * /                                                                            &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;//---------------------------------------------------------------------------  &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&#39;#include &quot;PVersion.h&quot;                                                          &#39;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;//---------------------------------------------------------------------------  &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;//---------------------------------------------------------------------------  &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;#pragma mark -                                                                 &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;#pragma mark Public Methods                                                    &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;//---------------------------------------------------------------------------  &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;/ **                                                                            &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; * Constructor of PVersion                                                     &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; *                                                                             &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; * /                                                                            &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;PVersion::PVersion ()                                                          &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;{                                                                              &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line"> </div>
-<div class="line">echo -n <span class="stringliteral">&#39;    version = &quot;&#39;</span>                    &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo -n ${<a class="code" href="classPVersion.html#a6d5dec08cb77a39685bac2e25311cebc">version</a>}                           &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&#39;&quot;;&#39;</span>                                    &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line"> </div>
-<div class="line">echo <span class="stringliteral">&quot;}                                                                              &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;//---------------------------------------------------------------------------  &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;/ **                                                                            &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; * Destructor of PVersion                                                      &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; *                                                                             &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; * /                                                                            &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;PVersion::~PVersion ()                                                         &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;{                                                                              &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;}                                                                              &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;//---------------------------------------------------------------------------  &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;/ **                                                                            &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; * Getter: Return the version of Parchis Engine                                &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; *                                                                             &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; * @return the version of parchis engine                                       &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot; * /                                                                            &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;const char* PVersion::getVersion ()                                            &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;{                                                                              &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;    return version;                                                            &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;}                                                                              &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;//---------------------------------------------------------------------------  &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;//---------------------------------------------------------------------------  &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="line">echo <span class="stringliteral">&quot;                                                                               &quot;</span> &gt;&gt; ../<a class="code" href="classPVersion.html">PVersion</a>.cpp</div>
-<div class="ttc" id="aclassPVersion_html"><div class="ttname"><a href="classPVersion.html">PVersion</a></div><div class="ttdef"><b>Definition:</b> PVersion.h:276</div></div>
-<div class="ttc" id="aclassPVersion_html_a6d5dec08cb77a39685bac2e25311cebc"><div class="ttname"><a href="classPVersion.html#a6d5dec08cb77a39685bac2e25311cebc">PVersion::version</a></div><div class="ttdeci">const char * version</div><div class="ttdoc">Version number.</div><div class="ttdef"><b>Definition:</b> PVersion.h:287</div></div>
-</div><!-- fragment --> </dd></dl>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8b7ee48cc4399b2b5b27c2c1265a3278"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b7ee48cc4399b2b5b27c2c1265a3278">&#9670;&nbsp;</a></span>PVersion()</h2>
 
@@ -281,7 +196,7 @@ Belongs to the Library: "Parchis Engine C++ library"
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructor of <a class="el" href="classPVersion.html">PVersion</a> </p>
+<p>Constructor of <a class="el" href="classPVersion.html" title="Parchis Class: To stablish the semantic versioning and build.">PVersion</a> </p>
 
 </div>
 </div>
@@ -307,7 +222,7 @@ Belongs to the Library: "Parchis Engine C++ library"
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Destructor of <a class="el" href="classPVersion.html">PVersion</a> </p>
+<p>Destructor of <a class="el" href="classPVersion.html" title="Parchis Class: To stablish the semantic versioning and build.">PVersion</a> </p>
 
 </div>
 </div>

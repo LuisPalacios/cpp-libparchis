@@ -1,5 +1,5 @@
 <map id="PParchis" name="PParchis">
 <area shape="rect" id="node1" title="Parchis Class: Declaration: Main class responsible for instantiating the board (PBoard)." alt="" coords="5,184,81,211"/>
 <area shape="rect" id="node2" href="$classPDebug.html" title="Parchis Class declaration: Shows debug messages on screen (or in the UI)" alt="" coords="7,5,79,32"/>
-<area shape="rect" id="node3" href="$classPVersion.html" title=" " alt="" coords="76,95,155,121"/>
+<area shape="rect" id="node3" href="$classPVersion.html" title="Parchis Class: To stablish the semantic versioning and build." alt="" coords="76,95,155,121"/>
 </map>
