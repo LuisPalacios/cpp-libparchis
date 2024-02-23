@@ -5,6 +5,7 @@
 ![Linux Build](https://github.com/LuisPalacios/cpp-libparchis/actions/workflows/ubuntu.yml/badge.svg)
 ![MacOS Build](https://github.com/LuisPalacios/cpp-libparchis/actions/workflows/macos.yml/badge.svg)
 [![codecov](https://codecov.io/gh/LuisPalacios/cpp-libparchis/graph/badge.svg?token=W0MZNVW5OJ)](https://codecov.io/gh/LuisPalacios/cpp-libparchis)
+
 &nbsp;
 
 <div align="center">
@@ -15,9 +16,19 @@
 
 &nbsp;
 
-Este proyecto consiste en la librería del juego del Parchis desarrollada C++ que hago disponible como open source en febrero de 2024. ¿Qué es el Parchis?... pues un juego de tables, que también se conoce como Pachisi, Parchisi, Parchesi, Veinticinco o Parchís. Se trata de una adaptación del juego indio de la cruz y el círculo *Pachisi*. Creado en la India alrededor del año 500 a.C., el juego suele subtitularse Juego Real de la India porque supuestamente la realeza jugaba utilizando bailarines disfrazados como piezas en grandes tableros al aire libre (se conserva un tablero de este tipo en Fatehpur Sikri).
+Este proyecto consiste en la librería C++ del juego del Parchis. La he subido como proyecto open source en Febrero de 2024.
+
+¿Qué es el Parchis?... pues un juego de mesa, que también se conoce como Pachisi, Parchisi, Parchesi o Veinticinco. Se trata de una adaptación del juego indio de la cruz y el círculo *Pachisi*. Creado en la India alrededor del año 500 a.C., el juego suele subtitularse Juego Real de la India porque supuestamente la realeza jugaba utilizando bailarines disfrazados como piezas en grandes tableros al aire libre (se conserva un tablero de este tipo en Fatehpur Sikri).
 
 Empecé a desarrollar El Parchis en 1995 para aprender Visual Basic, luego lo rehice en Java, después lo volví a hacer en C++ (aquí es donde creé la primera versión de esta librería), más adelante he creado versiones del fronted (gui) en Qt, Objective-C y la última en Swift y un intento en OpenGL.
+
+&nbsp;
+
+<div align="center">
+<img src="./art/logo-parchis.svg" alt="tablero del parchis" height="400" width="400" />
+<div align="left">
+
+&nbsp;
 
 Para mi ha constituido un proyecto de aprendizaje de programación. Siempre es más fácil aprender un lenguaje nuevo cuando tienes un objetivo en mente.
 
@@ -30,6 +41,9 @@ La parte frontend no la he subido a GitHub..., de momento.
 ![Parchis](./art/div-parchis.png?raw=true "ParchisDiv")
 
 <div align="left">
+
+&nbsp;
+
 
 ---
 
