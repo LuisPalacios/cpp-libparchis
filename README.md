@@ -2,10 +2,9 @@
 
 ![C++](https://img.shields.io/badge/C%2B%2B-11%2F14%2F17%2F20%2F23-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Linux Build](https://github.com/LuisPalacios/CppPlantilla/actions/workflows/ubuntu.yml/badge.svg)
-![MacOS Build](https://github.com/LuisPalacios/CppPlantilla/actions/workflows/macos.yml/badge.svg)
-[![codecov](https://codecov.io/gh/LuisPalacios/CppPlantilla/graph/badge.svg?token=VXUOCDCWQ5)](https://codecov.io/gh/LuisPalacios/CppPlantilla)
-
+![Linux Build](https://github.com/LuisPalacios/cpp-libparchis/actions/workflows/ubuntu.yml/badge.svg)
+![MacOS Build](https://github.com/LuisPalacios/cpp-libparchis/actions/workflows/macos.yml/badge.svg)
+[![codecov](https://codecov.io/gh/LuisPalacios/cpp-libparchis/graph/badge.svg?token=W0MZNVW5OJ)](https://codecov.io/gh/LuisPalacios/cpp-libparchis)
 &nbsp;
 
 <div align="center">
@@ -22,7 +21,7 @@ Empecé a desarrollar El Parchis en 1995 para aprender Visual Basic, luego lo re
 
 Para mi ha constituido un proyecto de aprendizaje de programación. Siempre es más fácil aprender un lenguaje nuevo cuando tienes un objetivo en mente.
 
-La parte frontend no la he subido a GitHub, de momento...
+La parte frontend no la he subido a GitHub..., de momento.
 
 &nbsp;
 
@@ -31,7 +30,6 @@ La parte frontend no la he subido a GitHub, de momento...
 ![Parchis](./art/div-parchis.png?raw=true "ParchisDiv")
 
 <div align="left">
-
 
 ---
 
