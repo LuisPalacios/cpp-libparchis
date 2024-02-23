@@ -110,49 +110,45 @@ $(function() {
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160; </div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="comment">// PRIVATE ATTRIBUTES (For ivar&#39;s use comments for doxygen: //!&lt;)</span></div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160; </div>
-<div class="line"><a name="l00223"></a><span class="lineno"><a class="line" href="classPParchis.html#a99ae4cc4e936483e23dbb2ae397f4f80">  223</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classPParchis.html#a99ae4cc4e936483e23dbb2ae397f4f80">bGameActive</a>;     </div>
-<div class="line"><a name="l00224"></a><span class="lineno"><a class="line" href="classPParchis.html#a5d47032793d6602d787f845d6c07740f">  224</a></span>&#160;    <a class="code" href="classPVersion.html">PVersion</a> *<a class="code" href="classPParchis.html#a5d47032793d6602d787f845d6c07740f">svnVersion</a>; </div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160; </div>
+<div class="line"><a name="l00223"></a><span class="lineno"><a class="line" href="classPParchis.html#a99ae4cc4e936483e23dbb2ae397f4f80">  223</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classPParchis.html#a99ae4cc4e936483e23dbb2ae397f4f80">bGameActive</a>; </div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="preprocessor">#pragma mark ====== PRIVATE INSTANCE METHODS</span></div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="preprocessor">#pragma mark ====== PRIVATE INSTANCE METHODS</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="comment">// PRIVATE METHODS: Set private attributes</span></div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="comment">// PRIVATE METHODS: Set private attributes</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPParchis.html#adc0268dc1a3762c0f78ec6fd24cea58e">initAttributes</a>(); <span class="comment">// Initialize the attributes</span></div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160; </div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPParchis.html#adc0268dc1a3762c0f78ec6fd24cea58e">initAttributes</a>(); <span class="comment">// Initialize the attributes</span></div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; </div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160; </div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="preprocessor">#pragma mark ====== PROTECTED ATTRIBUTES</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="comment">// PROTECTED ATTRIBUTES AND METHODS, USED BY DERIVED CLASSES</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160; </div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <a class="code" href="classPBoard.html">PBoard</a> *</div>
-<div class="line"><a name="l00239"></a><span class="lineno"><a class="line" href="classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c">  239</a></span>&#160;        <a class="code" href="classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c">board</a>; </div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160; </div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="preprocessor">#pragma mark ====== PUBLIC INSTANCE METHODS</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="comment">// CONSTRUCTORS/DESTRUCTOR</span></div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <a class="code" href="classPParchis.html#a53a11d9ab47260979f9bdd084f2074cb">PParchis</a>();</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classPParchis.html#a6dee0252828877e635fe6291d210dc83">~PParchis</a>();</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="preprocessor">#pragma mark ====== PROTECTED ATTRIBUTES</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="comment">// PROTECTED ATTRIBUTES AND METHODS, USED BY DERIVED CLASSES</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160; </div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <a class="code" href="classPBoard.html">PBoard</a> *</div>
+<div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c">  237</a></span>&#160;        <a class="code" href="classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c">board</a>; </div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="preprocessor">#pragma mark ====== PUBLIC INSTANCE METHODS</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="comment">// CONSTRUCTORS/DESTRUCTOR</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <a class="code" href="classPParchis.html#a53a11d9ab47260979f9bdd084f2074cb">PParchis</a>();</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classPParchis.html#a6dee0252828877e635fe6291d210dc83">~PParchis</a>();</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160; </div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="comment">// STATIC PUBLIC METHODS</span></div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="comment">// STATIC PUBLIC METHODS</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="classPParchis.html#a27fb1f2de8e01b04d59221567a0b26f9">getVersion</a>(); <span class="comment">// Get parchis Version</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160; </div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="comment">// PUBLIC METHODS</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160; </div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="comment">// PUBLIC METHODS</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <a class="code" href="classPBoard.html">PBoard</a> *<a class="code" href="classPParchis.html#a3441ab6c7de7db38dd666b11bc56d2e5">getBoard</a>(); <span class="comment">// Return the pointer to the Board</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;};</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160; </div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <a class="code" href="classPBoard.html">PBoard</a> *<a class="code" href="classPParchis.html#a3441ab6c7de7db38dd666b11bc56d2e5">getBoard</a>(); <span class="comment">// Return the pointer to the Board</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;};</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160; </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160; </div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="comment">//---------------------------------------------------------------------------</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// PPARCHIS_H</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// PPARCHIS_H</span></div>
 <div class="ttc" id="aPBoard_8h_html"><div class="ttname"><a href="PBoard_8h.html">PBoard.h</a></div></div>
 <div class="ttc" id="aPDebug_8h_html"><div class="ttname"><a href="PDebug_8h.html">PDebug.h</a></div></div>
 <div class="ttc" id="aPTime_8h_html"><div class="ttname"><a href="PTime_8h.html">PTime.h</a></div></div>
@@ -160,17 +156,14 @@ $(function() {
 <div class="ttc" id="aclassPBoard_html"><div class="ttname"><a href="classPBoard.html">PBoard</a></div><div class="ttdoc">Parchis Class Declaration: Represents the board, instantiates PGame, PSpace's, PPawn's,...</div><div class="ttdef"><b>Definition:</b> PBoard.h:159</div></div>
 <div class="ttc" id="aclassPDebug_html"><div class="ttname"><a href="classPDebug.html">PDebug</a></div><div class="ttdoc">Parchis Class declaration: Shows debug messages on screen (or in the UI)</div><div class="ttdef"><b>Definition:</b> PDebug.h:111</div></div>
 <div class="ttc" id="aclassPParchis_html"><div class="ttname"><a href="classPParchis.html">PParchis</a></div><div class="ttdoc">Parchis Class: Declaration: Main class responsible for instantiating the board (PBoard).</div><div class="ttdef"><b>Definition:</b> PParchis.h:212</div></div>
-<div class="ttc" id="aclassPParchis_html_a27fb1f2de8e01b04d59221567a0b26f9"><div class="ttname"><a href="classPParchis.html#a27fb1f2de8e01b04d59221567a0b26f9">PParchis::getVersion</a></div><div class="ttdeci">const char * getVersion()</div><div class="ttdef"><b>Definition:</b> PParchis.cpp:92</div></div>
-<div class="ttc" id="aclassPParchis_html_a3441ab6c7de7db38dd666b11bc56d2e5"><div class="ttname"><a href="classPParchis.html#a3441ab6c7de7db38dd666b11bc56d2e5">PParchis::getBoard</a></div><div class="ttdeci">PBoard * getBoard()</div><div class="ttdef"><b>Definition:</b> PParchis.cpp:108</div></div>
-<div class="ttc" id="aclassPParchis_html_a53a11d9ab47260979f9bdd084f2074cb"><div class="ttname"><a href="classPParchis.html#a53a11d9ab47260979f9bdd084f2074cb">PParchis::PParchis</a></div><div class="ttdeci">PParchis()</div><div class="ttdef"><b>Definition:</b> PParchis.cpp:60</div></div>
-<div class="ttc" id="aclassPParchis_html_a5d47032793d6602d787f845d6c07740f"><div class="ttname"><a href="classPParchis.html#a5d47032793d6602d787f845d6c07740f">PParchis::svnVersion</a></div><div class="ttdeci">PVersion * svnVersion</div><div class="ttdoc">Version number.</div><div class="ttdef"><b>Definition:</b> PParchis.h:224</div></div>
-<div class="ttc" id="aclassPParchis_html_a6dee0252828877e635fe6291d210dc83"><div class="ttname"><a href="classPParchis.html#a6dee0252828877e635fe6291d210dc83">PParchis::~PParchis</a></div><div class="ttdeci">virtual ~PParchis()</div><div class="ttdef"><b>Definition:</b> PParchis.cpp:71</div></div>
-<div class="ttc" id="aclassPParchis_html_a79c12365c1a5ef36a796d9fdbbb8d15c"><div class="ttname"><a href="classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c">PParchis::board</a></div><div class="ttdeci">PBoard * board</div><div class="ttdoc">Parchis instantiates the Board. The Board is responsible for instantiating the game.</div><div class="ttdef"><b>Definition:</b> PParchis.h:239</div></div>
+<div class="ttc" id="aclassPParchis_html_a3441ab6c7de7db38dd666b11bc56d2e5"><div class="ttname"><a href="classPParchis.html#a3441ab6c7de7db38dd666b11bc56d2e5">PParchis::getBoard</a></div><div class="ttdeci">PBoard * getBoard()</div><div class="ttdef"><b>Definition:</b> PParchis.cpp:104</div></div>
+<div class="ttc" id="aclassPParchis_html_a53a11d9ab47260979f9bdd084f2074cb"><div class="ttname"><a href="classPParchis.html#a53a11d9ab47260979f9bdd084f2074cb">PParchis::PParchis</a></div><div class="ttdeci">PParchis()</div><div class="ttdef"><b>Definition:</b> PParchis.cpp:66</div></div>
+<div class="ttc" id="aclassPParchis_html_a6dee0252828877e635fe6291d210dc83"><div class="ttname"><a href="classPParchis.html#a6dee0252828877e635fe6291d210dc83">PParchis::~PParchis</a></div><div class="ttdeci">virtual ~PParchis()</div><div class="ttdef"><b>Definition:</b> PParchis.cpp:77</div></div>
+<div class="ttc" id="aclassPParchis_html_a79c12365c1a5ef36a796d9fdbbb8d15c"><div class="ttname"><a href="classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c">PParchis::board</a></div><div class="ttdeci">PBoard * board</div><div class="ttdoc">Parchis instantiates the Board. The Board is responsible for instantiating the game.</div><div class="ttdef"><b>Definition:</b> PParchis.h:237</div></div>
 <div class="ttc" id="aclassPParchis_html_a90cdb17205180befb3bdd1c140e51f2e"><div class="ttname"><a href="classPParchis.html#a90cdb17205180befb3bdd1c140e51f2e">PParchis::dbg</a></div><div class="ttdeci">PDebug dbg</div><div class="ttdoc">To be able to send Log messages.</div><div class="ttdef"><b>Definition:</b> PParchis.h:218</div></div>
 <div class="ttc" id="aclassPParchis_html_a99ae4cc4e936483e23dbb2ae397f4f80"><div class="ttname"><a href="classPParchis.html#a99ae4cc4e936483e23dbb2ae397f4f80">PParchis::bGameActive</a></div><div class="ttdeci">bool bGameActive</div><div class="ttdoc">Indicates if (true/false) the game is active.</div><div class="ttdef"><b>Definition:</b> PParchis.h:223</div></div>
 <div class="ttc" id="aclassPParchis_html_acc9180d94b52f3a07086f02de188dfda"><div class="ttname"><a href="classPParchis.html#acc9180d94b52f3a07086f02de188dfda">PParchis::oss</a></div><div class="ttdeci">std::ostringstream oss</div><div class="ttdoc">Construct complex strings.</div><div class="ttdef"><b>Definition:</b> PParchis.h:219</div></div>
-<div class="ttc" id="aclassPParchis_html_adc0268dc1a3762c0f78ec6fd24cea58e"><div class="ttname"><a href="classPParchis.html#adc0268dc1a3762c0f78ec6fd24cea58e">PParchis::initAttributes</a></div><div class="ttdeci">void initAttributes()</div><div class="ttdef"><b>Definition:</b> PParchis.cpp:27</div></div>
-<div class="ttc" id="aclassPVersion_html"><div class="ttname"><a href="classPVersion.html">PVersion</a></div><div class="ttdoc">Parchis Class: To stablish the semantic versioning and build.</div><div class="ttdef"><b>Definition:</b> PVersion.h:161</div></div>
+<div class="ttc" id="aclassPParchis_html_adc0268dc1a3762c0f78ec6fd24cea58e"><div class="ttname"><a href="classPParchis.html#adc0268dc1a3762c0f78ec6fd24cea58e">PParchis::initAttributes</a></div><div class="ttdeci">void initAttributes()</div><div class="ttdef"><b>Definition:</b> PParchis.cpp:30</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
