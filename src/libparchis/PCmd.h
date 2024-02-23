@@ -34,12 +34,12 @@
 
 
 // Forward declaration of classes
-// class Parchis;
-// class Game;
+class Parchis;
+class Game;
 
 // My includes
 #include "PDebug.h"
-// #include "PParchis.h"
+#include "PParchis.h"
 
 // Standard includes
 #include <iostream>

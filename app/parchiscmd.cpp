@@ -18,9 +18,9 @@
  *
  */
 
+#include "PCmd.h"
 #include "PDebug.h"
 #include "PVersion.h"
-//#include "ParchisCmd.h"
 #include <cstdlib>
 #include <getopt.h>
 #include <iostream> // Stream declarations
@@ -51,7 +51,7 @@ int main(int argc, char **argv)
 
     // Debug setup
     PDebug dbg;
-    std::ostringstream oss;
+    //std::ostringstream oss;
 
     // Variables para hacer el parsing de argumentos
     bool showHelp = false;
@@ -148,5 +148,34 @@ int main(int argc, char **argv)
         return 0;
     }
 
+
+    // Initialize the Debug
+    dbg.setCallerName("main");
+    dbg.setDebug(iDbgLevel);
+    dbg.print(3, "Parchis, enjoy !!!");
+
+
+    // =================================================================================
+    // =================================================================================
+    // CLI mode
+    // --------
+    dbg.print(1, "running in cmd line mode, no Gui");
+    // Create a ParchisCmd, so a Parchis running automatically
+    dbg.print(1, "instantiate ParchisCmd");
+    PCmd *parchis;
+    parchis = new PCmd();
+
+
+    // Run the game in standalone mode...
+    parchis->run(iNumGames);
+
+    // Finish
+    dbg.print(1, "Parchis is ending, cleaning Memory");
+    delete parchis;
+
+    dbg.print(1, "Parchis is ended, bye");
+
+
+    // Exit the program
     return 0;
 }
