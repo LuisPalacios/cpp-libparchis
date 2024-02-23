@@ -53,6 +53,7 @@ class PBoard;
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <vector>
 
 #pragma mark ====== CLASS PBoardMemento
 

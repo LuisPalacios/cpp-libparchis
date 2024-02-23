@@ -1654,7 +1654,7 @@ void PBoard::changePlayerType(PPlayer *old_player, int new_type)
 //---------------------------------------------------------------------------
 
 
-#pragma mark-- Handle Memento's
+#pragma mark-- Handle Mementos
 
 //---------------------------------------------------------------------------
 
