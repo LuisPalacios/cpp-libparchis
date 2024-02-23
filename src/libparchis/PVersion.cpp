@@ -27,8 +27,6 @@
  */
 PVersion::PVersion()
 {
-    version = "1.0.2-231-g94d9edb";
-
     // Crear una expresión regular para validar el formato
     std::regex versionRegex("^v(\\d+)\\.(\\d+)\\.(\\d+)$");
     std::smatch matches;
@@ -54,16 +52,6 @@ PVersion::~PVersion()
 }
 
 //---------------------------------------------------------------------------
-
-/**
- * Getter: Return the version of Parchis Engine
- *
- * @return the version of parchis engine
- */
-const char *PVersion::getVersion()
-{
-    return version;
-}
 
 /**
  * Getter: Return the Full git version of Parchis Engine

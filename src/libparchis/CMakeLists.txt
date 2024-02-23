@@ -62,8 +62,8 @@ if(NOT DEFINED IGNORELIBS) # Ignoro las librerias para subir la doc a  github pa
                 #       revisa la sección del gestor de paquetes.
 
                 #nlohmann_json::nlohmann_json
-                #fmt::fmt
                 #cxxopts::cxxopts
+                fmt::fmt
                 spdlog::spdlog)
 endif()
 

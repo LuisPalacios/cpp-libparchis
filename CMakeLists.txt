@@ -119,7 +119,7 @@ if(NOT DEFINED IGNORELIBS) # Ignoro las librerias para subir la doc a  github pa
         # Dejo un par como ejemplo. Comentar o descomentar o añadir...
         cpmaddpackage("gh:gabime/spdlog@1.11.0")
         cpmaddpackage("gh:catchorg/Catch2@2.13.9")
-        #cpmaddpackage("gh:fmtlib/fmt#9.1.0")
+        cpmaddpackage("gh:fmtlib/fmt#9.1.0")
         #cpmaddpackage("gh:nlohmann/json@3.11.2")
         #cpmaddpackage("gh:jarro2783/cxxopts@3.1.1")
     endif()

@@ -220,9 +220,7 @@ private:
 
     // PRIVATE ATTRIBUTES (For ivar's use comments for doxygen: //!<)
 
-    bool bGameActive;     //!< Indicates if (true/false) the game is active
-    PVersion *svnVersion; //!< Version number
-
+    bool bGameActive; //!< Indicates if (true/false) the game is active
 
 #pragma mark ====== PRIVATE INSTANCE METHODS
 
@@ -248,8 +246,6 @@ public:
 
 
     // STATIC PUBLIC METHODS
-
-    const char *getVersion(); // Get parchis Version
 
 
     // PUBLIC METHODS

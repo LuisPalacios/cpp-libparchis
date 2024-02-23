@@ -122,7 +122,8 @@ int main(int argc, char **argv)
         {
 
             std::cout
-                << "Parchis, engine v" << pVersion->getVersion() << std::endl
+                << "Parchis, engine v" << pVersion->getVersionFull()
+                << std::endl
                 << std::endl
                 << "Uso: " << project_name << std::endl
                 << "  -h,        --help           print this help and exit"
@@ -140,7 +141,7 @@ int main(int argc, char **argv)
         if (showVersion)
         {
             // std::cout << std::endl << "Parchis v" << version << std::endl;
-            std::cout << "Parchis, engine v" << pVersion->getVersion()
+            std::cout << "Parchis, engine v" << pVersion->getVersionFull()
                       << std::endl
                       << std::endl;
         }

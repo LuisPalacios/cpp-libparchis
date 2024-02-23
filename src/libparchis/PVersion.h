@@ -169,7 +169,6 @@ private:
 
 
     // STATIC PRIVATE ATTRIBUTES (For ivar's use comments for doxygen: //!<)
-    const char *version; //!< Version number
     std::string version_full =
         GITVERSION_FULL; //!< Version number (git describe --tags --long)        v1.2.33-0-g3ad9785
     std::string version_tag =
@@ -191,7 +190,6 @@ public:
     virtual ~PVersion(); // Destructor
 
     // Getter
-    const char *getVersion();
     std::string getVersionFull();
     std::string getVersionTag();
     std::string getVersionCommit();

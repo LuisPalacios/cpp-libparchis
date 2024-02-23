@@ -11,6 +11,9 @@
 //---------------------------------------------------------------------------
 
 #include "PParchis.h"
+// Librerías externas
+#include <fmt/core.h>
+#include <spdlog/spdlog.h>
 
 //---------------------------------------------------------------------------
 
@@ -31,16 +34,19 @@ void PParchis::initAttributes()
     board = new PBoard("Tablero"); // Instantiate the Board (and Game)
 
     // Get the version number
-    svnVersion = new PVersion();
+    PVersion *pVersion = new PVersion();
+    const auto versionTitle =
+        fmt::format("|                version: {:<20}           |",
+                    pVersion->getVersionFull());
 
     // Debug purposes
     dbg.setCallerName("Parchis");
     dbg.print(1, "+========================================================+");
     dbg.print(1, "|                    PParchis init                       |");
-    dbg.printF(1,
-               "|                version: %-20s           |",
-               this->getVersion());
+    dbg.print(1, versionTitle);
     dbg.print(1, "+========================================================+");
+
+    delete pVersion;
 }
 
 //---------------------------------------------------------------------------
@@ -72,7 +78,6 @@ PParchis::~PParchis()
 {
     dbg.print(4, "+========================================================+");
     dbg.print(4, "|                 PParchis DESTRUCTOR                    |");
-    delete svnVersion;
     delete board;
     dbg.print(4, "+===============Fin Destructor PParchis==================+");
     dbg.print(4, "|                                                        |");
@@ -84,15 +89,6 @@ PParchis::~PParchis()
 #pragma mark-- Class Methods (static Public Methods)
 
 //---------------------------------------------------------------------------
-
-/**
- * Getter: Returns the version of Parchis Engine
- * @return Pointer to char* with the version of the parchis engine
- */
-const char *PParchis::getVersion()
-{
-    return svnVersion->getVersion();
-}
 
 //---------------------------------------------------------------------------
 
