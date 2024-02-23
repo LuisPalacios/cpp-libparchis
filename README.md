@@ -1,4 +1,4 @@
-# Plantilla para proyectos C++
+# libparchis c++
 
 ![C++](https://img.shields.io/badge/C%2B%2B-11%2F14%2F17%2F20%2F23-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,48 +8,9 @@
 
 &nbsp;
 
-## Cómo utilizar la plantilla
-
-- Desde GitHub, clona esta plantilla y úsala al crear un nuevo Repositorio:
-  - **Repository name**: Nombre de tu nuevo repositorio
-  - **Repository template**: CppPlantilla
-  - **Include All Branches**: `[x]` (Para que incluya `gh-pages`)
-  - **Description**: Añadir una descripción opcional.
-- Realiza los siguientes cambios para que se publique en tu GitHub Pages
-  - Repositorio -> Settings -> Pages
-    - **Source: Deploy from a branch**
-    - **Branch: gh-pages  Directorio: /(root))  Clic en SAVE**
-  - Repositorio -> Settings -> Actions -> General
-    - **Workflow Permissions: Read and write**
-  - Modifica el fichero `./docs/Doxyfile` y cambia la siguiente línea.
-    - **PROJECT_NAME = "C++ Plantilla LuisPa"**
-- Entra en tu cuenta de [codecov.io](https://codecov.io) y configura el nuevo repo.
-  - **CODECOV_TOKEN**: Añade nuevo `repository secret` en Repo > settings > secrets ... > actions
-  - `.github/workflows/ubuntu.yml`: Cambia (`slug: TuCuentaGitHub/CppPlantilla`) con tu usuario/repo.
-- Verifica y adapta el fichero `.vscode/settings.json` a tus gustos.
-- Modifica este fichero `./README.md`
-  - Cambia la primera línea por el título de tu proyecto
-  - Cambia los enlaces a los cuatro Badges: C++, Licencia, Build, Codecov.
-  - Cambia el contenido desde `## Cómo utilizar la plantilla` por el tuyo.
-- Empieza a codificar, cambia los fuentes incluidos como ejemplo:
-  - `./tests/main.cc`
-  - `./src/my_lib/my_lib.cc`
-  - `./src/my_lib/my_lib.h`
-  - `./app/main.cc`
-- Revisa los `CMakeLists.txt` para indicar tus fuentes, librerías, gestores, etc.
-  - `./CMakeLists.txt`
-  - `./src/my_lib/CMakeLists.txt`
-  - `./app/CMakeLists.txt`
-
-&nbsp;
-
-# libparchis c++
-
-&nbsp;
-
 <div align="center">
 
-![Parchis](art/logo-libparchis@2x.png?raw=true "logo-libparchis")
+![Parchis](art/logo-libparchis.png?raw=true "logo-libparchis")
 
 <div align="left">
 
