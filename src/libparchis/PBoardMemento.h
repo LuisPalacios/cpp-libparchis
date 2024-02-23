@@ -51,8 +51,8 @@ class PBoard;
 // Standard includes
 #include <cstdlib>
 #include <iostream>
+#include <sstream>
 #include <string>
-
 
 #pragma mark ====== CLASS PBoardMemento
 

@@ -1894,12 +1894,14 @@ void PGame::playerTossDice(int new_dice)
                 dbg.print(2,
                           "+---------------------------------------------------"
                           "-----+");
-                sprintf(strMsg,
-                        "|         %6s (%-7s). Round: %3d. Dice: %2d.        |",
-                        board->getColorName(this->getTurn()),
-                        player[getTurn()]->getName().c_str(),
-                        getNumRound(),
-                        i);
+                snprintf(
+                    strMsg,
+                    sizeof(strMsg),
+                    "|         %6s (%-7s). Round: %3d. Dice: %2d.        |",
+                    board->getColorName(this->getTurn()),
+                    player[getTurn()]->getName().c_str(),
+                    getNumRound(),
+                    i);
                 dbg.print(2, strMsg);
                 dbg.print(2,
                           "+---------------------------------------------------"
