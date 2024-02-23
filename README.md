@@ -67,7 +67,7 @@ La parte frontend no la he subido a GitHub, de momento...
 
 <div align="center">
 
-![Parchis](ParchisDiv.png?raw=true "ParchisDiv")
+![Parchis](./art/div-parchis.png?raw=true "ParchisDiv")
 
 <div align="left">
 

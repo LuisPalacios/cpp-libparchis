@@ -1,4 +1,4 @@
-# LICENCIA CC BY-NC-ND 4.0 DEED  
+# LICENCIA CC BY-NC-ND 4.0 DEED
 
 Atribución-NoComercial-SinDerivadas 4.0 Internacional
 
