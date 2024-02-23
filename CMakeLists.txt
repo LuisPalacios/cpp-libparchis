@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.21)
 
 # Cambiar nombre y versión
 project(
-    "C++ Plantilla"
+    "Librería Parchis C++"
     VERSION 1.0.0
     LANGUAGES C CXX)
 
@@ -46,9 +46,9 @@ option(ENABLE_COVERAGE "Habilitar el build de Code Coverage." OFF)
 option(ENABLE_LTO "Añadir Link Time Optimization." OFF)
 
 # Nombres del proyecto y la librería
-set(LIBRARY_NAME "lib")
+set(LIBRARY_NAME "libparchis")
 set(UNIT_TEST_NAME "unit_tests")
-set(EXECUTABLE_NAME "main")
+set(EXECUTABLE_NAME "parchiscmd")
 
 # Incluyo módulos adicionales CMake obligatorios
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/)

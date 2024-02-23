@@ -3,7 +3,7 @@
 
 # Especifico cuales son los fuentes a incluir
 set(APP_SOURCES
-    "${CMAKE_CURRENT_SOURCE_DIR}/main.cc")
+    "${CMAKE_CURRENT_SOURCE_DIR}/parchiscmd.cpp")
 
 # Especifico la ubicación del ejecutable
 add_executable(

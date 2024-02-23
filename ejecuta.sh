@@ -3,4 +3,4 @@ echo
 echo --
 echo
 cd build/app
-./main
+./parchiscmd
