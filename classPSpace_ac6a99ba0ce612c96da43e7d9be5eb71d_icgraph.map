@@ -1,0 +1,10 @@
+<map id="PSpace::getPawn" name="PSpace::getPawn">
+<area shape="rect" id="node1" title=" " alt="" coords="759,31,891,57"/>
+<area shape="rect" id="node2" href="$classPGame.html#a06e00aeb9f5c73e261bf199423cb14e8" title=" " alt="" coords="557,5,705,32"/>
+<area shape="rect" id="node6" href="$classPBoard.html#a43bcc14f4e5933122d8535c2c26de38b" title=" " alt="" coords="552,56,711,83"/>
+<area shape="rect" id="node3" href="$classPGame.html#a3085de2c1bc26c155a326ef504eca2cc" title=" " alt="" coords="333,5,504,32"/>
+<area shape="rect" id="node4" href="$classPGame.html#a092c19e1e20d10d894ab8ba95aae8a3c" title=" " alt="" coords="143,5,285,32"/>
+<area shape="rect" id="node5" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node7" href="$classPGame.html#a55f3066641a22e6175507483215439dc" title=" " alt="" coords="365,56,472,83"/>
+<area shape="rect" id="node8" href="$classPGame.html#a068ce3397bea2a878e1ceefc20141a05" title=" " alt="" coords="364,107,473,133"/>
+</map>

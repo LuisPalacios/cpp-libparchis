@@ -1,0 +1,9 @@
+<map id="PPlayer::setDicesGotten" name="PPlayer::setDicesGotten">
+<area shape="rect" id="node1" title=" " alt="" coords="636,81,815,108"/>
+<area shape="rect" id="node2" href="$classPPlayer.html#ad86c8fb9edb1c9e6b20ad44a4f189bc6" title=" " alt="" coords="437,56,588,83"/>
+<area shape="rect" id="node5" href="$classPPlayer.html#af1ff607701e4d6d74b6f882f80e9efbb" title=" " alt="" coords="440,107,585,133"/>
+<area shape="rect" id="node3" href="$classPBoard.html#a00e6ff21148e3375f11245407a550d1a" title=" " alt="" coords="169,5,363,32"/>
+<area shape="rect" id="node4" href="$classPBoardMemento.html#a4c5e818a2c33705515f2cfe6b02e5da7" title=" " alt="" coords="143,56,389,83"/>
+<area shape="rect" id="node6" href="$classPGame.html#a95171e6567bd8be86c93857ed0e5d305" title=" " alt="" coords="195,107,337,133"/>
+<area shape="rect" id="node7" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,107,95,133"/>
+</map>

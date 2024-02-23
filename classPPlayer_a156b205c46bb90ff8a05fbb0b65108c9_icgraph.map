@@ -1,0 +1,9 @@
+<map id="PPlayer::setType" name="PPlayer::setType">
+<area shape="rect" id="node1" title=" " alt="" coords="520,56,649,83"/>
+<area shape="rect" id="node2" href="$classPHuman.html#a67d6763d60a45457f7aa039a6a9f7bc8" title=" " alt="" coords="283,5,454,32"/>
+<area shape="rect" id="node4" href="$classPRobotSimple.html#a2adf5016a7b355a1ab3c485a194e4f92" title=" " alt="" coords="265,56,472,83"/>
+<area shape="rect" id="node6" href="$classPRobotSmart.html#a801917b1ace8eff722d5c49b415912a1" title=" " alt="" coords="269,107,469,133"/>
+<area shape="rect" id="node3" href="$classPHuman.html#abd41eea234ccd858695d1ae4a3c5507f" title=" " alt="" coords="41,5,181,32"/>
+<area shape="rect" id="node5" href="$classPRobotSimple.html#a518e1694b82a1124ac5f2c76324cd4f9" title=" " alt="" coords="5,56,217,83"/>
+<area shape="rect" id="node7" href="$classPRobotSmart.html#a16acd6e42436aa229bc040420592d95d" title=" " alt="" coords="11,107,211,133"/>
+</map>

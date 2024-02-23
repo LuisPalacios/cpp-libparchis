@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['maxcallername_135',['MAXCALLERNAME',['../PDebug_8h.html#afddbbccedc99566f8edd9e2f12aae0ce',1,'PDebug.h']]],
-  ['maxstringdbg_136',['MAXSTRINGDBG',['../PDebug_8h.html#a31d2caa601f52bfeab492b5549bcf74b',1,'PDebug.h']]]
+  ['blue_1054',['BLUE',['../PBoard_8h.html#a79d10e672abb49ad63eeaa8aaef57c38',1,'PBoard.h']]]
 ];

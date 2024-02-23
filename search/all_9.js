@@ -1,19 +1,8 @@
 var searchData=
 [
-  ['pcmd_30',['PCmd',['../classPCmd.html',1,'PCmd'],['../classPCmd.html#a2f1e91aeec84c8af5e8890023e619d81',1,'PCmd::PCmd()']]],
-  ['pcmd_2ecpp_31',['PCmd.cpp',['../PCmd_8cpp.html',1,'']]],
-  ['pcmd_2eh_32',['PCmd.h',['../PCmd_8h.html',1,'']]],
-  ['pdebug_33',['PDebug',['../classPDebug.html',1,'PDebug'],['../classPDebug.html#ad981dedcddfc07215d12a45114eab382',1,'PDebug::PDebug()']]],
-  ['pdebug_2ecpp_34',['PDebug.cpp',['../PDebug_8cpp.html',1,'']]],
-  ['pdebug_2eh_35',['PDebug.h',['../PDebug_8h.html',1,'']]],
-  ['pdebugobjc_2dinterface_2eh_36',['PDebugObjC-Interface.h',['../PDebugObjC-Interface_8h.html',1,'']]],
-  ['pparchis_37',['PParchis',['../classPParchis.html',1,'PParchis'],['../classPParchis.html#a53a11d9ab47260979f9bdd084f2074cb',1,'PParchis::PParchis()']]],
-  ['pparchis_2ecpp_38',['PParchis.cpp',['../PParchis_8cpp.html',1,'']]],
-  ['pparchis_2eh_39',['PParchis.h',['../PParchis_8h.html',1,'']]],
-  ['print_40',['print',['../classPDebug.html#a0ca3190c0c84b600508e57635af2b846',1,'PDebug']]],
-  ['print_5fhello_5fworld_41',['print_hello_world',['../my__lib_8cc.html#a501e98503bb06e4809928757b9b9a77c',1,'print_hello_world():&#160;my_lib.cc'],['../my__lib_8h.html#a501e98503bb06e4809928757b9b9a77c',1,'print_hello_world():&#160;my_lib.cc']]],
-  ['printf_42',['printF',['../classPDebug.html#af894984e0c759c4013e136147f2b5460',1,'PDebug']]],
-  ['pversion_43',['PVersion',['../classPVersion.html',1,'PVersion'],['../classPVersion.html#a8b7ee48cc4399b2b5b27c2c1265a3278',1,'PVersion::PVersion()']]],
-  ['pversion_2ecpp_44',['PVersion.cpp',['../PVersion_8cpp.html',1,'']]],
-  ['pversion_2eh_45',['PVersion.h',['../PVersion_8h.html',1,'']]]
+  ['lastdice_258',['lastDice',['../classPGame.html#aaec6bdb75d14fbfe0c126363fa08fb1b',1,'PGame']]],
+  ['lastdiceforward_259',['lastDiceForward',['../classPGame.html#a0c1e769ef8b9c2059971e8de40b7dde2',1,'PGame']]],
+  ['lasteatedpawn_260',['lastEatedPawn',['../classPGame.html#a4a621c830c6578a2f56b438b7acda52c',1,'PGame']]],
+  ['lastpawnmoved_261',['lastPawnMoved',['../classPBoard.html#a42763154983d4f869d77a9e696c482e0',1,'PBoard::lastPawnMoved()'],['../classPBoardMemento.html#aa905076c62a7866720174c3cf2ca4e5b',1,'PBoardMemento::lastPawnMoved()']]],
+  ['lastspaceindex_262',['lastSpaceIndex',['../classPPawn.html#a618aaa0f7846e9bbb3af9a8d9259a05e',1,'PPawn']]]
 ];

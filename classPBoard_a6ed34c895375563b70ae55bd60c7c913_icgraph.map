@@ -1,0 +1,16 @@
+<map id="PBoard::getSpaceByIndex" name="PBoard::getSpaceByIndex">
+<area shape="rect" id="node1" title=" " alt="" coords="877,175,1067,201"/>
+<area shape="rect" id="node2" href="$classPBoard.html#a2ceae924bb35788b166dbba9d7c3a0fc" title=" " alt="" coords="605,99,829,125"/>
+<area shape="rect" id="node3" href="$classPBoard.html#a5139e45d2c137e54a921670b11c2b4bd" title=" " alt="" coords="367,48,529,75"/>
+<area shape="rect" id="node7" href="$classPBoard.html#ab32e96a4d86452519e6756191504f44a" title=" " alt="" coords="377,200,519,227"/>
+<area shape="rect" id="node11" href="$classPBoard.html#aeb7a0696838f7720470c538c6ffc6822" title=" " alt="" coords="609,200,825,227"/>
+<area shape="rect" id="node12" href="$classPGame.html#ab028d800da033304290c72cf813a14bf" title=" " alt="" coords="606,251,829,293"/>
+<area shape="rect" id="node13" href="$classPGame.html#a624523fda8a5410feca229839ccf411e" title=" " alt="" coords="652,317,783,344"/>
+<area shape="rect" id="node5" href="$classPGame.html#aff1607caa58fcad5064321629f517363" title=" " alt="" coords="143,157,291,184"/>
+<area shape="rect" id="node9" href="$classPGame.html#aad52637fc1514eaca021a3071d957a9f" title=" " alt="" coords="339,99,557,125"/>
+<area shape="rect" id="node4" href="$classPBoard.html#a9ca2986d4834036b6f9dcddbd66948a5" title=" " alt="" coords="155,5,278,32"/>
+<area shape="rect" id="node6" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,157,95,184"/>
+<area shape="rect" id="node8" href="$classPGame.html#a95171e6567bd8be86c93857ed0e5d305" title=" " alt="" coords="145,208,288,235"/>
+<area shape="rect" id="node10" href="$classPGame.html#a092c19e1e20d10d894ab8ba95aae8a3c" title=" " alt="" coords="145,107,288,133"/>
+<area shape="rect" id="node14" href="$classPCmd.html#a1d1418d4f103ec832e82e4115f4f72fd" title=" " alt="" coords="387,308,509,335"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="PGame::setBoardPlayers" name="PGame::setBoardPlayers">
+<area shape="rect" id="node1" title=" " alt="" coords="385,56,568,83"/>
+<area shape="rect" id="node2" href="$classPBoard.html#a5139e45d2c137e54a921670b11c2b4bd" title=" " alt="" coords="176,5,337,32"/>
+<area shape="rect" id="node4" href="$classPBoard.html#a43bcc14f4e5933122d8535c2c26de38b" title=" " alt="" coords="177,56,336,83"/>
+<area shape="rect" id="node7" href="$classPBoard.html#afb058cb9ea8cfdcd872858d0b8569c4b" title=" " alt="" coords="185,107,329,133"/>
+<area shape="rect" id="node3" href="$classPBoard.html#a9ca2986d4834036b6f9dcddbd66948a5" title=" " alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node5" href="$classPGame.html#a55f3066641a22e6175507483215439dc" title=" " alt="" coords="13,56,120,83"/>
+<area shape="rect" id="node6" href="$classPGame.html#a068ce3397bea2a878e1ceefc20141a05" title=" " alt="" coords="12,107,121,133"/>
+</map>

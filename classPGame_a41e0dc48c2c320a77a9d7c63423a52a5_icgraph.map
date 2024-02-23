@@ -1,0 +1,11 @@
+<map id="PGame::getNumSixes" name="PGame::getNumSixes">
+<area shape="rect" id="node1" title=" " alt="" coords="660,81,823,108"/>
+<area shape="rect" id="node2" href="$classPGame.html#a624523fda8a5410feca229839ccf411e" title=" " alt="" coords="423,5,554,32"/>
+<area shape="rect" id="node5" href="$classPBoardMemento.html#a4c5e818a2c33705515f2cfe6b02e5da7" title=" " alt="" coords="365,56,612,83"/>
+<area shape="rect" id="node6" href="$classPGame.html#a450f70622fe2837d3644473f47a91470" title=" " alt="" coords="143,75,317,101"/>
+<area shape="rect" id="node7" href="$classPBoard.html#a43bcc14f4e5933122d8535c2c26de38b" title=" " alt="" coords="409,157,568,184"/>
+<area shape="rect" id="node3" href="$classPCmd.html#a1d1418d4f103ec832e82e4115f4f72fd" title=" " alt="" coords="169,12,291,39"/>
+<area shape="rect" id="node4" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,44,95,71"/>
+<area shape="rect" id="node8" href="$classPGame.html#a55f3066641a22e6175507483215439dc" title=" " alt="" coords="177,132,283,159"/>
+<area shape="rect" id="node9" href="$classPGame.html#a068ce3397bea2a878e1ceefc20141a05" title=" " alt="" coords="175,183,285,209"/>
+</map>

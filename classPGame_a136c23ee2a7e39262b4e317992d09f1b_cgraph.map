@@ -1,0 +1,13 @@
+<map id="PGame::selectPawn" name="PGame::selectPawn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,156,184"/>
+<area shape="rect" id="node2" href="$classPPawn.html#ae3d5be0c2f7929a97552f93d55ada00e" title=" " alt="" coords="234,5,361,32"/>
+<area shape="rect" id="node3" href="$classPGame.html#a6184ace8b90bbf1d177a164a7631f696" title=" " alt="" coords="204,56,391,83"/>
+<area shape="rect" id="node5" href="$classPDebug.html#a5a83bedcf8867828507b13a9e981ab0c" title=" " alt="" coords="226,107,369,133"/>
+<area shape="rect" id="node6" href="$classPGame.html#aeca9ef4d9ffdc0f89acee62bf6356d5c" title=" " alt="" coords="229,157,366,184"/>
+<area shape="rect" id="node7" href="$classPPlayer.html#a62667e747dd5a76ec0f09bbeddd52f97" title=" " alt="" coords="205,208,389,235"/>
+<area shape="rect" id="node9" href="$classPGame.html#a045df1c37d6d3e8efb10f23d2146c170" title=" " alt="" coords="210,309,385,336"/>
+<area shape="rect" id="node11" href="$classPDebug.html#af894984e0c759c4013e136147f2b5460" title=" " alt="" coords="238,259,357,285"/>
+<area shape="rect" id="node4" href="$classPGame.html#abc661abef6f3834aeb9a8c3ccb7b9309" title=" " alt="" coords="487,56,613,83"/>
+<area shape="rect" id="node8" href="$classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="495,233,605,260"/>
+<area shape="rect" id="node10" href="$classPRules.html#a8338e8830d0cbcf0b4923d2877ed314c" title=" " alt="" coords="439,309,661,336"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classPPlayer.html" title="Parchis Class: Base player derived to create PHuman&#39;s PRobotSimple&#39;s PRobotSmart&#39;s." alt="" coords="5,56,76,83"/>
+<area shape="rect" id="node2" href="$classPHuman.html" title="Parchis Class: Derived from PPlayer, represents a Human player.." alt="" coords="142,5,219,32"/>
+<area shape="rect" id="node3" href="$classPRobotSimple.html" title="Parchis Class: Derived from PPlayer. Represents a Simple robot player." alt="" coords="124,56,237,83"/>
+<area shape="rect" id="node4" href="$classPRobotSmart.html" title="Parchis Class: Derived from PPlayer. Represents a Smart robot player." alt="" coords="127,107,234,133"/>
+</map>

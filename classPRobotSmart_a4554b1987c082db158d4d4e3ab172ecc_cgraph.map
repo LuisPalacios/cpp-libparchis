@@ -1,0 +1,8 @@
+<map id="PRobotSmart::getPawnToMove" name="PRobotSmart::getPawnToMove">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,225,133"/>
+<area shape="rect" id="node2" href="$classPPawn.html#a5a199acf84b4d6f6968dee412df7f752" title=" " alt="" coords="297,5,429,32"/>
+<area shape="rect" id="node3" href="$classPPlayer.html#a4be2dd544adb5f2e272c1ad5886888c0" title=" " alt="" coords="294,56,433,83"/>
+<area shape="rect" id="node4" href="$classPSnapshot.html#a00f426eaa858f2044cf8a47cddf40bf7" title=" " alt="" coords="287,107,440,133"/>
+<area shape="rect" id="node5" href="$classPBoard.html#a0c6a667f6ca22eaab9ee49bf8f47967c" title=" " alt="" coords="273,157,453,184"/>
+<area shape="rect" id="node6" href="$classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="308,208,419,235"/>
+</map>

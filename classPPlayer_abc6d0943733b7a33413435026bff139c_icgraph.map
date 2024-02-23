@@ -1,0 +1,10 @@
+<map id="PPlayer::setName" name="PPlayer::setName">
+<area shape="rect" id="node1" title=" " alt="" coords="560,132,699,159"/>
+<area shape="rect" id="node2" href="$classPPlayer.html#ad86c8fb9edb1c9e6b20ad44a4f189bc6" title=" " alt="" coords="331,31,481,57"/>
+<area shape="rect" id="node5" href="$classPHuman.html#abd41eea234ccd858695d1ae4a3c5507f" title=" " alt="" coords="336,81,476,108"/>
+<area shape="rect" id="node6" href="$classPPlayer.html#a518a90748279f8ec88732315a51ae057" title=" " alt="" coords="342,132,470,159"/>
+<area shape="rect" id="node7" href="$classPRobotSimple.html#a518e1694b82a1124ac5f2c76324cd4f9" title=" " alt="" coords="300,183,512,209"/>
+<area shape="rect" id="node8" href="$classPRobotSmart.html#a16acd6e42436aa229bc040420592d95d" title=" " alt="" coords="306,233,506,260"/>
+<area shape="rect" id="node3" href="$classPBoard.html#a00e6ff21148e3375f11245407a550d1a" title=" " alt="" coords="31,5,226,32"/>
+<area shape="rect" id="node4" href="$classPBoardMemento.html#a4c5e818a2c33705515f2cfe6b02e5da7" title=" " alt="" coords="5,56,252,83"/>
+</map>

@@ -86,10 +86,18 @@ Collaboration diagram for PCmd:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPCmd__coll__graph.png" border="0" usemap="#aPCmd_coll__map" alt="Collaboration graph"/></div>
 <map name="aPCmd_coll__map" id="aPCmd_coll__map">
-<area shape="rect" title=" " alt="" coords="5,260,65,287"/>
-<area shape="rect" href="classPParchis.html" title="Parchis Class: Declaration: Main class responsible for instantiating the board (PBoard)." alt="" coords="47,184,123,211"/>
-<area shape="rect" href="classPDebug.html" title="Parchis Class declaration: Shows debug messages on screen (or in the UI)" alt="" coords="34,5,106,32"/>
-<area shape="rect" href="classPVersion.html" title="Parchis Class: To stablish the semantic versioning and build." alt="" coords="124,95,203,121"/>
+<area shape="rect" title=" " alt="" coords="80,347,140,373"/>
+<area shape="rect" href="classPParchis.html" title="Parchis Class: Declaration: Main class responsible for instantiating the board (PBoard)." alt="" coords="94,219,170,246"/>
+<area shape="rect" href="classPDebug.html" title="Parchis Class declaration: Shows debug messages on screen (or in the UI)" alt="" coords="349,5,421,32"/>
+<area shape="rect" href="classPVersion.html" title="Parchis Class: To stablish the semantic versioning and build." alt="" coords="34,95,112,121"/>
+<area shape="rect" href="classPBoard.html" title="Parchis Class Declaration: Represents the board, instantiates PGame, PSpace&#39;s, PPawn&#39;s,..." alt="" coords="579,95,647,121"/>
+<area shape="rect" href="classPDice.html" title="Parchis Class declaration: Represents the dice of the game." alt="" coords="486,347,545,373"/>
+<area shape="rect" href="classPSpace.html" title="Parchis Class: represents each of the Spaces in the Parchis game." alt="" coords="560,219,629,246"/>
+<area shape="rect" href="classPPlayer.html" title="Parchis Class: Base player derived to create PHuman&#39;s PRobotSimple&#39;s PRobotSmart&#39;s." alt="" coords="480,437,551,464"/>
+<area shape="rect" href="classPPawn.html" title="Parchis Class: Represents a Pawn." alt="" coords="824,347,888,373"/>
+<area shape="rect" href="classPGame.html" title="Parchis Class: Responsible of the game start, managment, status, options, etc." alt="" coords="829,528,898,555"/>
+<area shape="rect" href="classPRules.html" title="Parchis Class: Rules after dice tossed and calculates destinations." alt="" coords="762,617,829,644"/>
+<area shape="rect" href="classPSnapshot.html" title="Parchis Class: Represents the overall status of the Game." alt="" coords="1088,145,1178,172"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -108,7 +116,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6dee0252828877e635fe6291d210dc83 inherit pub_methods_classPParchis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27fb1f2de8e01b04d59221567a0b26f9 inherit pub_methods_classPParchis"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPParchis.html#a27fb1f2de8e01b04d59221567a0b26f9">getVersion</a> ()</td></tr>
 <tr class="separator:a27fb1f2de8e01b04d59221567a0b26f9 inherit pub_methods_classPParchis"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3441ab6c7de7db38dd666b11bc56d2e5 inherit pub_methods_classPParchis"><td class="memItemLeft" align="right" valign="top">PBoard *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPParchis.html#a3441ab6c7de7db38dd666b11bc56d2e5">getBoard</a> ()</td></tr>
+<tr class="memitem:a3441ab6c7de7db38dd666b11bc56d2e5 inherit pub_methods_classPParchis"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPBoard.html">PBoard</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPParchis.html#a3441ab6c7de7db38dd666b11bc56d2e5">getBoard</a> ()</td></tr>
 <tr class="separator:a3441ab6c7de7db38dd666b11bc56d2e5 inherit pub_methods_classPParchis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -130,18 +138,12 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_classPParchis"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classPParchis')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classPParchis.html">PParchis</a></td></tr>
-<tr class="memitem:a79c12365c1a5ef36a796d9fdbbb8d15c inherit pro_attribs_classPParchis"><td class="memItemLeft" align="right" valign="top">PBoard *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c">board</a></td></tr>
+<tr class="memitem:a79c12365c1a5ef36a796d9fdbbb8d15c inherit pro_attribs_classPParchis"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPBoard.html">PBoard</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c">board</a></td></tr>
 <tr class="memdesc:a79c12365c1a5ef36a796d9fdbbb8d15c inherit pro_attribs_classPParchis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parchis instantiates the Board. The Board is responsible for instantiating the game.  <a href="classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c">More...</a><br /></td></tr>
 <tr class="separator:a79c12365c1a5ef36a796d9fdbbb8d15c inherit pro_attribs_classPParchis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="PCmd_8h.html">PCmd.h</a> class</p>
-<p>class <a class="el" href="classPCmd.html">PCmd</a></p>
-<p>This class is derived from Parchis (responsible for instantiating the BOARD, PLAYERS and RULES and connect them) This class is responsible for playing in terminal mode, runs in standalone mode.</p>
-<p>Created on September 2009. Copyright (c) 2009 Luis Palacios All rights reserved.</p>
-<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
-<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
-<p>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. class <a class="el" href="classPCmd.html">PCmd</a></p>
+<div class="textblock"><p>class <a class="el" href="classPCmd.html">PCmd</a></p>
 <p>This class is derived from Parchis (responsible for instantiating the BOARD, PLAYERS and RULES and connect them) This class is responsible for playing in terminal mode, runs in standalone mode. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2f1e91aeec84c8af5e8890023e619d81"></a>
@@ -277,6 +279,54 @@ Here is the caller graph for this function:</div>
 <p><a class="el" href="classPCmd.html#a1d1418d4f103ec832e82e4115f4f72fd">newTurn()</a></p>
 <p>Ask the Game to change the turn </p>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classPCmd_a1d1418d4f103ec832e82e4115f4f72fd_cgraph.png" border="0" usemap="#aclassPCmd_a1d1418d4f103ec832e82e4115f4f72fd_cgraph" alt=""/></div>
+<map name="aclassPCmd_a1d1418d4f103ec832e82e4115f4f72fd_cgraph" id="aclassPCmd_a1d1418d4f103ec832e82e4115f4f72fd_cgraph">
+<area shape="rect" title=" " alt="" coords="5,132,128,159"/>
+<area shape="rect" href="classPBoard.html#a2428dd839835cfd300a435063c983282" title=" " alt="" coords="176,5,312,32"/>
+<area shape="rect" href="classPGame.html#aebac1a973cc9e8347d32f6d4dfcf251c" title=" " alt="" coords="397,56,584,83"/>
+<area shape="rect" href="classPGame.html#a4d642406f0f74ae0c8d0d2130f7860ca" title=" " alt="" coords="389,107,593,133"/>
+<area shape="rect" href="classPGame.html#a86e8016aefcffaa56b29eda35d812279" title=" " alt="" coords="380,157,601,184"/>
+<area shape="rect" href="classPGame.html#af61cd06870dc0464e300e81de918ce9a" title=" " alt="" coords="730,1237,871,1264"/>
+<area shape="rect" href="classPGame.html#a624523fda8a5410feca229839ccf411e" title=" " alt="" coords="179,537,309,564"/>
+<area shape="rect" href="classPGame.html#a94ffa68e9e4f30fb58dd95441f00963f" title=" " alt="" coords="1006,1263,1185,1289"/>
+<area shape="rect" href="classPGame.html#a5e7fede2219d80940ba7cad6cf3754dd" title=" " alt="" coords="980,1212,1211,1239"/>
+<area shape="rect" href="classPBoard.html#a83b7a062cc2c99a809a7ad332a8a3191" title=" " alt="" coords="405,411,576,437"/>
+<area shape="rect" href="classPGame.html#a6184ace8b90bbf1d177a164a7631f696" title=" " alt="" coords="397,461,584,488"/>
+<area shape="rect" href="classPGame.html#abc661abef6f3834aeb9a8c3ccb7b9309" title=" " alt="" coords="738,335,863,361"/>
+<area shape="rect" href="classPBoard.html#a0c6b940d44221c129031172c9ea879e6" title=" " alt="" coords="427,563,554,589"/>
+<area shape="rect" href="classPBoard.html#aeb6d9cc881d76fc24bea0521405715be" title=" " alt="" coords="385,614,596,655"/>
+<area shape="rect" href="classPGame.html#a29977011a877b4e3f11ad5dbd6634ea0" title=" " alt="" coords="413,680,568,707"/>
+<area shape="rect" href="classPGame.html#a41e0dc48c2c320a77a9d7c63423a52a5" title=" " alt="" coords="409,731,572,757"/>
+<area shape="rect" href="classPBoard.html#a6ed34c895375563b70ae55bd60c7c913" title=" " alt="" coords="396,512,585,539"/>
+<area shape="rect" href="classPGame.html#acead5004e27dc090e8ce1ed5a4eb1090" title=" " alt="" coords="406,832,575,859"/>
+<area shape="rect" href="classPBoard.html#a100705d79493a5f383ed825129fc13cd" title=" " alt="" coords="393,781,588,808"/>
+<area shape="rect" href="classPDebug.html#af894984e0c759c4013e136147f2b5460" title=" " alt="" coords="1036,908,1155,935"/>
+<area shape="rect" href="classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="1295,1009,1405,1036"/>
+<area shape="rect" href="classPBoard.html#a43fe27fff67aa0cd7e583f9e98bb3304" title=" " alt="" coords="414,259,567,285"/>
+<area shape="rect" href="classPGame.html#a61311508e80a74500340cb6110b39dad" title=" " alt="" coords="402,933,579,960"/>
+<area shape="rect" href="classPGame.html#a1267ce7cb425fe181568262b2d161253" title=" " alt="" coords="409,309,572,336"/>
+<area shape="rect" href="classPGame.html#a1f7de11b8c2c39dea18e6e14175825a9" title=" " alt="" coords="377,1187,604,1213"/>
+<area shape="rect" href="classPGame.html#a2f3c1f74241a987f4397947c33048744" title=" " alt="" coords="360,1035,621,1061"/>
+<area shape="rect" href="classPGame.html#a02859d56b2771adf6a391ddb92db8e10" title=" " alt="" coords="429,360,553,387"/>
+<area shape="rect" href="classPBoard.html#ae141b130bb310ffbb7dbc58628ace083" title=" " alt="" coords="725,512,876,539"/>
+<area shape="rect" href="classPSpace.html#aa1597c3f302c9063de4681f215eeea1a" title=" " alt="" coords="735,731,866,757"/>
+<area shape="rect" href="classPDice.html#a3c3f98a4ccff642156124161b280af9f" title=" " alt="" coords="1032,629,1159,656"/>
+<area shape="rect" href="classPSpace.html#a238d70d3219b304f35cf5fb4b46c4f05" title=" " alt="" coords="1027,680,1164,707"/>
+<area shape="rect" href="classPDice.html#a55f95d2080fbda95ea2767fc5ebdf34b" title=" " alt="" coords="1032,832,1159,859"/>
+<area shape="rect" href="classPSpace.html#a87095782983add01f90581ee9635a977" title=" " alt="" coords="1032,579,1159,605"/>
+<area shape="rect" href="classPSpace.html#ac23100f1f9bbf37d72b834215580ec5e" title=" " alt="" coords="1032,731,1159,757"/>
+<area shape="rect" href="classPDice.html#a2e36664ab73da410420099e602e668ff" title=" " alt="" coords="1032,781,1159,808"/>
+<area shape="rect" href="classPSpace.html#a5840fa1c5621b08b44f8af1e85654701" title=" " alt="" coords="1287,756,1413,783"/>
+<area shape="rect" href="classPBoard.html#a307349fa6a3fed906aa9bd37efc56708" title=" " alt="" coords="1259,705,1441,732"/>
+<area shape="rect" href="classPBoard.html#a7bb6ae2c32379161fe2d6d55ab24e18d" title=" " alt="" coords="711,984,890,1011"/>
+<area shape="rect" href="classPGame.html#a7444219991c3d37f93b422fe822d7178" title=" " alt="" coords="687,1187,914,1213"/>
+<area shape="rect" href="classPGame.html#a1fd8a52d89a69271bdabb57baab4a68e" title=" " alt="" coords="712,1085,889,1112"/>
+<area shape="rect" href="classPGame.html#acd8ff3b0cc18c4b53e316dc8257eca5a" title=" " alt="" coords="669,1035,932,1061"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPCmd_a1d1418d4f103ec832e82e4115f4f72fd_icgraph.png" border="0" usemap="#aclassPCmd_a1d1418d4f103ec832e82e4115f4f72fd_icgraph" alt=""/></div>
@@ -310,9 +360,56 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPCmd_a1dba4153179e6b155c857a18b3b62f45_cgraph.png" border="0" usemap="#aclassPCmd_a1dba4153179e6b155c857a18b3b62f45_cgraph" alt=""/></div>
 <map name="aclassPCmd_a1dba4153179e6b155c857a18b3b62f45_cgraph" id="aclassPCmd_a1dba4153179e6b155c857a18b3b62f45_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,95,57"/>
-<area shape="rect" href="classPCmd.html#a1d1418d4f103ec832e82e4115f4f72fd" title=" " alt="" coords="143,5,265,32"/>
-<area shape="rect" href="classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="149,56,259,83"/>
+<area shape="rect" title=" " alt="" coords="5,1306,95,1333"/>
+<area shape="rect" href="classPGame.html#a092c19e1e20d10d894ab8ba95aae8a3c" title=" " alt="" coords="181,614,323,641"/>
+<area shape="rect" href="classPGame.html#af61cd06870dc0464e300e81de918ce9a" title=" " alt="" coords="1070,897,1211,924"/>
+<area shape="rect" href="classPGame.html#a045df1c37d6d3e8efb10f23d2146c170" title=" " alt="" coords="761,36,935,62"/>
+<area shape="rect" href="classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="1364,2129,1475,2156"/>
+<area shape="rect" href="classPBoard.html#a2428dd839835cfd300a435063c983282" title=" " alt="" coords="780,137,916,164"/>
+<area shape="rect" href="classPGame.html#acead5004e27dc090e8ce1ed5a4eb1090" title=" " alt="" coords="763,188,933,214"/>
+<area shape="rect" href="classPGame.html#aad52637fc1514eaca021a3071d957a9f" title=" " alt="" coords="431,1717,649,1744"/>
+<area shape="rect" href="classPGame.html#a31501ba285a4758b4adcea2f3036d228" title=" " alt="" coords="147,1306,357,1333"/>
+<area shape="rect" href="classPGame.html#a61b3b7370b843c8e35383f596cfe09a9" title=" " alt="" coords="161,1256,343,1282"/>
+<area shape="rect" href="classPGame.html#aff1607caa58fcad5064321629f517363" title=" " alt="" coords="466,1252,614,1278"/>
+<area shape="rect" href="classPGame.html#a95171e6567bd8be86c93857ed0e5d305" title=" " alt="" coords="181,1808,323,1834"/>
+<area shape="rect" href="classPCmd.html#a1d1418d4f103ec832e82e4115f4f72fd" title=" " alt="" coords="479,137,601,164"/>
+<area shape="rect" href="classPGame.html#a450f70622fe2837d3644473f47a91470" title=" " alt="" coords="453,1774,627,1801"/>
+<area shape="rect" href="classPGame.html#adb530fd12d05b76e8a1b8b73d8609ac9" title=" " alt="" coords="177,2332,327,2358"/>
+<area shape="rect" href="classPGame.html#a06b59f46049e0c867e67fd19a6ae48cb" title=" " alt="" coords="143,2382,361,2409"/>
+<area shape="rect" href="classPGame.html#a3085de2c1bc26c155a326ef504eca2cc" title=" " alt="" coords="455,466,625,493"/>
+<area shape="rect" href="classPRules.html#ac185f38961bdb5880006e4b23ed65ca4" title=" " alt="" coords="470,390,610,417"/>
+<area shape="rect" href="classPGame.html#a578a015e7d246d0bf2b431e43a308447" title=" " alt="" coords="745,796,951,822"/>
+<area shape="rect" href="classPGame.html#ab713ed8bec2a47d7dff7cbcfbcdd861f" title=" " alt="" coords="443,578,637,619"/>
+<area shape="rect" href="classPGame.html#a81f3f27cd92e4c23b4c1681a9077f51a" title=" " alt="" coords="409,644,671,670"/>
+<area shape="rect" href="classPPawn.html#ab8371ebe8c0cb192c757f028a900dc13" title=" " alt="" coords="773,492,923,518"/>
+<area shape="rect" href="classPPawn.html#acb97361e9b6ffe91d0d5788ab42ae745" title=" " alt="" coords="783,441,913,468"/>
+<area shape="rect" href="classPRules.html#a8338e8830d0cbcf0b4923d2877ed314c" title=" " alt="" coords="1029,137,1252,164"/>
+<area shape="rect" href="classPSpace.html#a368e7a2307e059e765df79484bdefb9e" title=" " alt="" coords="1081,340,1200,366"/>
+<area shape="rect" href="classPDebug.html#af894984e0c759c4013e136147f2b5460" title=" " alt="" coords="1081,1825,1200,1852"/>
+<area shape="rect" href="classPGame.html#a94ffa68e9e4f30fb58dd95441f00963f" title=" " alt="" coords="1330,948,1509,974"/>
+<area shape="rect" href="classPGame.html#a5e7fede2219d80940ba7cad6cf3754dd" title=" " alt="" coords="1304,1074,1535,1101"/>
+<area shape="rect" href="classPRules.html#ae32d4f2f880ebd7d49a2bde183fcd26d" title=" " alt="" coords="761,289,935,316"/>
+<area shape="rect" href="classPBoard.html#a2ceae924bb35788b166dbba9d7c3a0fc" title=" " alt="" coords="736,1876,960,1902"/>
+<area shape="rect" href="classPGame.html#abc661abef6f3834aeb9a8c3ccb7b9309" title=" " alt="" coords="785,1673,911,1700"/>
+<area shape="rect" href="classPBoard.html#adc9304fa93e858ce59e07bf3d2311587" title=" " alt="" coords="748,1825,948,1852"/>
+<area shape="rect" href="classPBoard.html#a83b7a062cc2c99a809a7ad332a8a3191" title=" " alt="" coords="763,1774,933,1801"/>
+<area shape="rect" href="classPSpace.html#a2a81cc00d41dab8b26f7410cdf02563d" title=" " alt="" coords="763,1252,933,1278"/>
+<area shape="rect" href="classPGame.html#aa54846492bb61c7d1e49fe26d7e96e06" title=" " alt="" coords="736,1302,960,1329"/>
+<area shape="rect" href="classPGame.html#ac72466d0d43c518fce10305c41127f32" title=" " alt="" coords="763,1622,933,1649"/>
+<area shape="rect" href="classPGame.html#ab1d6e482df6411b5b5e734b6d7e2bedb" title=" " alt="" coords="745,1354,951,1395"/>
+<area shape="rect" href="classPGame.html#ad657fa03bb27cf784e388bdea7e27a5d" title=" " alt="" coords="1035,998,1246,1025"/>
+<area shape="rect" href="classPBoard.html#a43fe27fff67aa0cd7e583f9e98bb3304" title=" " alt="" coords="771,1470,925,1497"/>
+<area shape="rect" href="classPGame.html#a44df19237bf8f8b8b32402cd7f3a0220" title=" " alt="" coords="751,1201,945,1228"/>
+<area shape="rect" href="classPBoard.html#a25ae07e39e8bbaf49a44eb1a64edef26" title=" " alt="" coords="1040,1462,1241,1489"/>
+<area shape="rect" href="classPGame.html#a0c57cfa6fd6a071d8f87a6471cb335dc" title=" " alt="" coords="764,1521,932,1548"/>
+<area shape="rect" href="classPGame.html#a78ab6ce022c429588e75e295e234731e" title=" " alt="" coords="755,1572,941,1598"/>
+<area shape="rect" href="classPGame.html#a4824a5198ccde113ab07c4b3ca0d30ff" title=" " alt="" coords="719,948,977,974"/>
+<area shape="rect" href="classPGame.html#a627b5cc5678310b858f688e5f079a58b" title=" " alt="" coords="1025,1100,1256,1126"/>
+<area shape="rect" href="classPGame.html#ab85b8503821720b5dbb63144328de4d0" title=" " alt="" coords="738,998,958,1025"/>
+<area shape="rect" href="classPGame.html#a3c241d5acc42fd069a5d14bda782d73f" title=" " alt="" coords="734,897,962,924"/>
+<area shape="rect" href="classPBoard.html#ab32e96a4d86452519e6756191504f44a" title=" " alt="" coords="469,1844,611,1870"/>
+<area shape="rect" href="classPPlayer.html#af1ff607701e4d6d74b6f882f80e9efbb" title=" " alt="" coords="467,2058,613,2085"/>
+<area shape="rect" href="classPGame.html#a61311508e80a74500340cb6110b39dad" title=" " alt="" coords="451,1932,629,1958"/>
 </map>
 </div>
 

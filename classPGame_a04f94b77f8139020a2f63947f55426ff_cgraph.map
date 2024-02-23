@@ -1,0 +1,21 @@
+<map id="PGame::calcAhead" name="PGame::calcAhead">
+<area shape="rect" id="node1" title=" " alt="" coords="5,307,149,334"/>
+<area shape="rect" id="node2" href="$classPPawn.html#af8d4e00dcb65537f2b5ce5b96e54012a" title=" " alt="" coords="223,13,372,39"/>
+<area shape="rect" id="node4" href="$classPPawn.html#ae3d5be0c2f7929a97552f93d55ada00e" title=" " alt="" coords="487,202,614,229"/>
+<area shape="rect" id="node5" href="$classPDebug.html#a5a83bedcf8867828507b13a9e981ab0c" title=" " alt="" coords="226,114,369,141"/>
+<area shape="rect" id="node6" href="$classPSpace.html#a110737233f2dbcd4ae195413f48c8f3d" title=" " alt="" coords="230,165,365,191"/>
+<area shape="rect" id="node7" href="$classPBoard.html#a3ddc7301aeddee69f061d9c9d0fe6194" title=" " alt="" coords="197,216,397,257"/>
+<area shape="rect" id="node8" href="$classPSpace.html#a238d70d3219b304f35cf5fb4b46c4f05" title=" " alt="" coords="229,282,366,309"/>
+<area shape="rect" id="node9" href="$classPSpace.html#a419c4539b667278a7df5136828df8750" title=" " alt="" coords="212,333,383,359"/>
+<area shape="rect" id="node10" href="$classPBoard.html#a95b3e48b222575679d8e13a597e7a20f" title=" " alt="" coords="207,383,387,410"/>
+<area shape="rect" id="node11" href="$classPSpace.html#a5b975ffaaebd0f4cb0bbbcbc57bfc3da" title=" " alt="" coords="225,434,370,461"/>
+<area shape="rect" id="node13" href="$classPSpace.html#a75fb154b56cc9de611efc853f583593f" title=" " alt="" coords="239,485,356,511"/>
+<area shape="rect" id="node18" href="$classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="242,535,353,562"/>
+<area shape="rect" id="node19" href="$classPPawn.html#ad68f235bb5a71a16f6c5341a7aa87c6b" title=" " alt="" coords="217,586,378,613"/>
+<area shape="rect" id="node3" href="$classPBoard.html#aeb6d9cc881d76fc24bea0521405715be" title=" " alt="" coords="445,5,656,47"/>
+<area shape="rect" id="node12" href="$classPSpace.html#aac619c3caaf5e820a0ce9d825e3653f4" title=" " alt="" coords="485,383,617,410"/>
+<area shape="rect" id="node14" href="$classPSpace.html#a5840fa1c5621b08b44f8af1e85654701" title=" " alt="" coords="487,434,614,461"/>
+<area shape="rect" id="node15" href="$classPBoard.html#adb297b4a1c1e5c2fe0121aed0b9faaa5" title=" " alt="" coords="445,485,656,511"/>
+<area shape="rect" id="node16" href="$classPBoard.html#af22d688011c2c3f7333ef78958ca8aa1" title=" " alt="" coords="464,535,637,562"/>
+<area shape="rect" id="node17" href="$classPBoard.html#a61b4f6b5699f11b3deb734bb0da9a0ec" title=" " alt="" coords="463,586,638,613"/>
+</map>

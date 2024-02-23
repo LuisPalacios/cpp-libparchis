@@ -1,0 +1,15 @@
+<map id="PSpace::canWalkPawn" name="PSpace::canWalkPawn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,172,184"/>
+<area shape="rect" id="node2" href="$classPGame.html#a9140ec8288e56853ae7ce9f4b9a23ba6" title=" " alt="" coords="220,5,425,32"/>
+<area shape="rect" id="node3" href="$classPPawn.html#ae3d5be0c2f7929a97552f93d55ada00e" title=" " alt="" coords="259,56,386,83"/>
+<area shape="rect" id="node4" href="$classPSpace.html#aac619c3caaf5e820a0ce9d825e3653f4" title=" " alt="" coords="513,107,645,133"/>
+<area shape="rect" id="node5" href="$classPBoard.html#a2428dd839835cfd300a435063c983282" title=" " alt="" coords="255,208,391,235"/>
+<area shape="rect" id="node6" href="$classPSpace.html#a34961cca48ce3a35effc739925820dc9" title=" " alt="" coords="257,157,389,184"/>
+<area shape="rect" id="node8" href="$classPSpace.html#a75fb154b56cc9de611efc853f583593f" title=" " alt="" coords="264,309,381,336"/>
+<area shape="rect" id="node13" href="$classPSpace.html#a1e291cf1a5aca0812a1f0a5d2a6a67df" title=" " alt="" coords="263,259,382,285"/>
+<area shape="rect" id="node7" href="$classPSpace.html#a419c4539b667278a7df5136828df8750" title=" " alt="" coords="493,157,664,184"/>
+<area shape="rect" id="node9" href="$classPSpace.html#a5840fa1c5621b08b44f8af1e85654701" title=" " alt="" coords="515,233,642,260"/>
+<area shape="rect" id="node10" href="$classPBoard.html#adb297b4a1c1e5c2fe0121aed0b9faaa5" title=" " alt="" coords="473,335,684,361"/>
+<area shape="rect" id="node11" href="$classPBoard.html#af22d688011c2c3f7333ef78958ca8aa1" title=" " alt="" coords="492,385,665,412"/>
+<area shape="rect" id="node12" href="$classPBoard.html#a61b4f6b5699f11b3deb734bb0da9a0ec" title=" " alt="" coords="491,284,666,311"/>
+</map>

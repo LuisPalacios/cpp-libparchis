@@ -68,18 +68,81 @@ $(function() {
 <div class="textblock">
 <p><a href="hierarchy.html">Go to the textual class hierarchy</a></p>
 </div><table border="0" cellspacing="10" cellpadding="0">
-<tr><td><img src="inherit_graph_0.png" border="0" usemap="#aPDebug" alt=""/>
+<tr><td><img src="inherit_graph_0.png" border="0" usemap="#aPBoard" alt=""/>
+<map name="aPBoard" id="aPBoard">
+<area shape="rect" href="classPBoard.html" title="Parchis Class Declaration: Represents the board, instantiates PGame, PSpace&#39;s, PPawn&#39;s,..." alt="" coords="5,5,73,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_1.png" border="0" usemap="#aPBoardMemento" alt=""/>
+<map name="aPBoardMemento" id="aPBoardMemento">
+<area shape="rect" href="classPBoardMemento.html" title="Parchis Class declaration: Stores/Restores internal state of the Board object for undo/redo." alt="" coords="5,5,136,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_2.png" border="0" usemap="#aPDebug" alt=""/>
 <map name="aPDebug" id="aPDebug">
 <area shape="rect" href="classPDebug.html" title="Parchis Class declaration: Shows debug messages on screen (or in the UI)" alt="" coords="5,5,77,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_1.png" border="0" usemap="#aPParchis" alt=""/>
+<tr><td><img src="inherit_graph_3.png" border="0" usemap="#aPDice" alt=""/>
+<map name="aPDice" id="aPDice">
+<area shape="rect" href="classPDice.html" title="Parchis Class declaration: Represents the dice of the game." alt="" coords="5,5,64,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_4.png" border="0" usemap="#aPGame" alt=""/>
+<map name="aPGame" id="aPGame">
+<area shape="rect" href="classPGame.html" title="Parchis Class: Responsible of the game start, managment, status, options, etc." alt="" coords="5,5,75,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_5.png" border="0" usemap="#aPParchis" alt=""/>
 <map name="aPParchis" id="aPParchis">
 <area shape="rect" href="classPParchis.html" title="Parchis Class: Declaration: Main class responsible for instantiating the board (PBoard)." alt="" coords="5,5,81,32"/>
 <area shape="rect" href="classPCmd.html" title=" " alt="" coords="129,5,189,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_2.png" border="0" usemap="#aPVersion" alt=""/>
+<tr><td><img src="inherit_graph_6.png" border="0" usemap="#aPPawn" alt=""/>
+<map name="aPPawn" id="aPPawn">
+<area shape="rect" href="classPPawn.html" title="Parchis Class: Represents a Pawn." alt="" coords="5,5,69,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_7.png" border="0" usemap="#aPPlayer" alt=""/>
+<map name="aPPlayer" id="aPPlayer">
+<area shape="rect" href="classPPlayer.html" title="Parchis Class: Base player derived to create PHuman&#39;s PRobotSimple&#39;s PRobotSmart&#39;s." alt="" coords="5,56,76,83"/>
+<area shape="rect" href="classPHuman.html" title="Parchis Class: Derived from PPlayer, represents a Human player.." alt="" coords="142,5,219,32"/>
+<area shape="rect" href="classPRobotSimple.html" title="Parchis Class: Derived from PPlayer. Represents a Simple robot player." alt="" coords="124,56,237,83"/>
+<area shape="rect" href="classPRobotSmart.html" title="Parchis Class: Derived from PPlayer. Represents a Smart robot player." alt="" coords="127,107,234,133"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_8.png" border="0" usemap="#aPPlayerMemento" alt=""/>
+<map name="aPPlayerMemento" id="aPPlayerMemento">
+<area shape="rect" href="classPPlayerMemento.html" title="Parchis Class: Stores/Restores internal state of a Player object." alt="" coords="5,5,139,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_9.png" border="0" usemap="#aPRand" alt=""/>
+<map name="aPRand" id="aPRand">
+<area shape="rect" href="classPRand.html" title="Parchis Class declaration: Generar números aleatorios." alt="" coords="5,5,68,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_10.png" border="0" usemap="#aPRules" alt=""/>
+<map name="aPRules" id="aPRules">
+<area shape="rect" href="classPRules.html" title="Parchis Class: Rules after dice tossed and calculates destinations." alt="" coords="5,5,72,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_11.png" border="0" usemap="#aPSnapshot" alt=""/>
+<map name="aPSnapshot" id="aPSnapshot">
+<area shape="rect" href="classPSnapshot.html" title="Parchis Class: Represents the overall status of the Game." alt="" coords="5,5,96,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_12.png" border="0" usemap="#aPSpace" alt=""/>
+<map name="aPSpace" id="aPSpace">
+<area shape="rect" href="classPSpace.html" title="Parchis Class: represents each of the Spaces in the Parchis game." alt="" coords="5,5,75,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_13.png" border="0" usemap="#aPTime" alt=""/>
+<map name="aPTime" id="aPTime">
+<area shape="rect" href="classPTime.html" title="Parchis Class: Manage time." alt="" coords="5,5,68,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_14.png" border="0" usemap="#aPVersion" alt=""/>
 <map name="aPVersion" id="aPVersion">
 <area shape="rect" href="classPVersion.html" title="Parchis Class: To stablish the semantic versioning and build." alt="" coords="5,5,84,32"/>
 </map>

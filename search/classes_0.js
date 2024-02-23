@@ -1,7 +1,22 @@
 var searchData=
 [
-  ['pcmd_67',['PCmd',['../classPCmd.html',1,'']]],
-  ['pdebug_68',['PDebug',['../classPDebug.html',1,'']]],
-  ['pparchis_69',['PParchis',['../classPParchis.html',1,'']]],
-  ['pversion_70',['PVersion',['../classPVersion.html',1,'']]]
+  ['pboard_541',['PBoard',['../classPBoard.html',1,'']]],
+  ['pboardmemento_542',['PBoardMemento',['../classPBoardMemento.html',1,'']]],
+  ['pcmd_543',['PCmd',['../classPCmd.html',1,'']]],
+  ['pdebug_544',['PDebug',['../classPDebug.html',1,'']]],
+  ['pdice_545',['PDice',['../classPDice.html',1,'']]],
+  ['pgame_546',['PGame',['../classPGame.html',1,'']]],
+  ['phuman_547',['PHuman',['../classPHuman.html',1,'']]],
+  ['pparchis_548',['PParchis',['../classPParchis.html',1,'']]],
+  ['ppawn_549',['PPawn',['../classPPawn.html',1,'']]],
+  ['pplayer_550',['PPlayer',['../classPPlayer.html',1,'']]],
+  ['pplayermemento_551',['PPlayerMemento',['../classPPlayerMemento.html',1,'']]],
+  ['prand_552',['PRand',['../classPRand.html',1,'']]],
+  ['probotsimple_553',['PRobotSimple',['../classPRobotSimple.html',1,'']]],
+  ['probotsmart_554',['PRobotSmart',['../classPRobotSmart.html',1,'']]],
+  ['prules_555',['PRules',['../classPRules.html',1,'']]],
+  ['psnapshot_556',['PSnapshot',['../classPSnapshot.html',1,'']]],
+  ['pspace_557',['PSpace',['../classPSpace.html',1,'']]],
+  ['ptime_558',['PTime',['../classPTime.html',1,'']]],
+  ['pversion_559',['PVersion',['../classPVersion.html',1,'']]]
 ];

@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['_7epcmd_112',['~PCmd',['../classPCmd.html#ad4941ce651ba3d263ad5fec57ec1eb3c',1,'PCmd']]],
-  ['_7epdebug_113',['~PDebug',['../classPDebug.html#aa4a755b34b6b2453002338933d427880',1,'PDebug']]],
-  ['_7epparchis_114',['~PParchis',['../classPParchis.html#a6dee0252828877e635fe6291d210dc83',1,'PParchis']]],
-  ['_7epversion_115',['~PVersion',['../classPVersion.html#a881dd48681218526a24637a08b1ba1a7',1,'PVersion']]]
+  ['movablepawns_767',['movablePawns',['../classPGame.html#a045df1c37d6d3e8efb10f23d2146c170',1,'PGame']]],
+  ['movedicetospace_768',['moveDiceToSpace',['../classPBoard.html#a100705d79493a5f383ed825129fc13cd',1,'PBoard']]],
+  ['movepawn_769',['movePawn',['../classPGame.html#aff1607caa58fcad5064321629f517363',1,'PGame']]],
+  ['movepawnmanuallytospace_770',['movePawnManuallyToSpace',['../classPGame.html#ab028d800da033304290c72cf813a14bf',1,'PGame']]],
+  ['movepawntospace_771',['movePawnToSpace',['../classPBoard.html#adc9304fa93e858ce59e07bf3d2311587',1,'PBoard']]]
 ];

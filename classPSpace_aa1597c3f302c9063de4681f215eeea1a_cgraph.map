@@ -1,0 +1,13 @@
+<map id="PSpace::addDice" name="PSpace::addDice">
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,136,184"/>
+<area shape="rect" id="node2" href="$classPDice.html#a3c3f98a4ccff642156124161b280af9f" title=" " alt="" coords="189,5,316,32"/>
+<area shape="rect" id="node3" href="$classPSpace.html#a238d70d3219b304f35cf5fb4b46c4f05" title=" " alt="" coords="184,56,321,83"/>
+<area shape="rect" id="node4" href="$classPDice.html#a55f95d2080fbda95ea2767fc5ebdf34b" title=" " alt="" coords="189,107,316,133"/>
+<area shape="rect" id="node5" href="$classPSpace.html#ac23100f1f9bbf37d72b834215580ec5e" title=" " alt="" coords="189,157,316,184"/>
+<area shape="rect" id="node8" href="$classPDebug.html#af894984e0c759c4013e136147f2b5460" title=" " alt="" coords="193,208,312,235"/>
+<area shape="rect" id="node10" href="$classPSpace.html#a87095782983add01f90581ee9635a977" title=" " alt="" coords="189,259,316,285"/>
+<area shape="rect" id="node11" href="$classPDice.html#a2e36664ab73da410420099e602e668ff" title=" " alt="" coords="189,309,316,336"/>
+<area shape="rect" id="node6" href="$classPSpace.html#a5840fa1c5621b08b44f8af1e85654701" title=" " alt="" coords="397,107,524,133"/>
+<area shape="rect" id="node7" href="$classPBoard.html#a307349fa6a3fed906aa9bd37efc56708" title=" " alt="" coords="369,157,552,184"/>
+<area shape="rect" id="node9" href="$classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="405,208,516,235"/>
+</map>

@@ -1,0 +1,40 @@
+<map id="PBoard::setMemento" name="PBoard::setMemento">
+<area shape="rect" id="node1" title=" " alt="" coords="5,731,164,757"/>
+<area shape="rect" id="node2" href="$classPBoardMemento.html#a05b47a3773e345b2909fb020403f5b1e" title=" " alt="" coords="221,5,423,32"/>
+<area shape="rect" id="node3" href="$classPBoard.html#a83b7a062cc2c99a809a7ad332a8a3191" title=" " alt="" coords="237,56,407,83"/>
+<area shape="rect" id="node4" href="$classPBoardMemento.html#a72854a8ca1741d87e79b5454a54459a4" title=" " alt="" coords="223,107,421,133"/>
+<area shape="rect" id="node5" href="$classPBoardMemento.html#a4c0d8c8f25bdf8f81ab9f1ca93d4b900" title=" " alt="" coords="221,157,423,184"/>
+<area shape="rect" id="node6" href="$classPBoardMemento.html#a6127db56ad4d360b597d3a2ed04859cf" title=" " alt="" coords="212,209,432,250"/>
+<area shape="rect" id="node7" href="$classPPawn.html#a5a199acf84b4d6f6968dee412df7f752" title=" " alt="" coords="256,275,388,301"/>
+<area shape="rect" id="node8" href="$classPPlayer.html#a4be2dd544adb5f2e272c1ad5886888c0" title=" " alt="" coords="253,325,391,352"/>
+<area shape="rect" id="node9" href="$classPSpace.html#a238d70d3219b304f35cf5fb4b46c4f05" title=" " alt="" coords="253,376,391,403"/>
+<area shape="rect" id="node10" href="$classPSpace.html#a419c4539b667278a7df5136828df8750" title=" " alt="" coords="237,427,407,453"/>
+<area shape="rect" id="node11" href="$classPGame.html#ac72466d0d43c518fce10305c41127f32" title=" " alt="" coords="237,477,407,504"/>
+<area shape="rect" id="node12" href="$classPGame.html#a41e0dc48c2c320a77a9d7c63423a52a5" title=" " alt="" coords="241,528,403,555"/>
+<area shape="rect" id="node13" href="$classPSpace.html#ac6a99ba0ce612c96da43e7d9be5eb71d" title=" " alt="" coords="256,579,388,605"/>
+<area shape="rect" id="node14" href="$classPBoardMemento.html#a16ab4c0c26bd357e12b5d1d261a9f93e" title=" " alt="" coords="219,629,425,656"/>
+<area shape="rect" id="node15" href="$classPBoardMemento.html#abb8ccab6d1a765e6cf76a14a5728abd6" title=" " alt="" coords="221,680,423,707"/>
+<area shape="rect" id="node16" href="$classPPawn.html#a303847b786d5acc40d633eb0ee896924" title=" " alt="" coords="256,731,388,757"/>
+<area shape="rect" id="node17" href="$classPBoardMemento.html#a182bc02580ed6a88d24f0ce0fd42444b" title=" " alt="" coords="219,781,425,808"/>
+<area shape="rect" id="node18" href="$classPPlayer.html#a5f2d0d68caf11b509e712e38d4ed3a45" title=" " alt="" coords="217,832,427,859"/>
+<area shape="rect" id="node19" href="$classPGame.html#abc661abef6f3834aeb9a8c3ccb7b9309" title=" " alt="" coords="259,883,385,909"/>
+<area shape="rect" id="node20" href="$classPBoardMemento.html#a2a8a61e9ad1eac2a091e327f78202630" title=" " alt="" coords="221,933,423,960"/>
+<area shape="rect" id="node21" href="$classPBoard.html#a00fbe2906ba7a45ce88a75121bbdacfd" title=" " alt="" coords="251,984,393,1011"/>
+<area shape="rect" id="node26" href="$classPBoard.html#a42c2f5b73340cfbd95346e14d510cd1e" title=" " alt="" coords="249,1035,395,1061"/>
+<area shape="rect" id="node27" href="$classPBoard.html#a43fe27fff67aa0cd7e583f9e98bb3304" title=" " alt="" coords="480,1187,633,1213"/>
+<area shape="rect" id="node28" href="$classPBoard.html#ae141b130bb310ffbb7dbc58628ace083" title=" " alt="" coords="247,1136,397,1163"/>
+<area shape="rect" id="node29" href="$classPBoard.html#a0c6a667f6ca22eaab9ee49bf8f47967c" title=" " alt="" coords="232,1187,412,1213"/>
+<area shape="rect" id="node30" href="$classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="681,1187,792,1213"/>
+<area shape="rect" id="node31" href="$classPGame.html#a64c70548ae056a0f8c560cc6a668a67e" title=" " alt="" coords="231,1288,413,1315"/>
+<area shape="rect" id="node36" href="$classPGame.html#a0256e33c16b08197340aa6f38cd5e0ae" title=" " alt="" coords="237,1339,407,1365"/>
+<area shape="rect" id="node37" href="$classPGame.html#a1267ce7cb425fe181568262b2d161253" title=" " alt="" coords="241,1389,403,1416"/>
+<area shape="rect" id="node38" href="$classPGame.html#a02859d56b2771adf6a391ddb92db8e10" title=" " alt="" coords="260,1440,384,1467"/>
+<area shape="rect" id="node22" href="$classPBoard.html#af7408db2e3332737e4872585902207fd" title=" " alt="" coords="493,984,620,1011"/>
+<area shape="rect" id="node23" href="$classPBoard.html#a5aae5021a97289c1b9884c33a81a29e8" title=" " alt="" coords="489,1035,625,1061"/>
+<area shape="rect" id="node24" href="$classPBoard.html#a2b013d4bec29626a8940775342dc22e8" title=" " alt="" coords="495,883,618,909"/>
+<area shape="rect" id="node25" href="$classPBoard.html#a2eaf292eafdc2cae45ebebf8e729d784" title=" " alt="" coords="487,933,626,960"/>
+<area shape="rect" id="node32" href="$classPBoard.html#a009d19e8873dd291e4f74061fac17b96" title=" " alt="" coords="489,1339,625,1365"/>
+<area shape="rect" id="node33" href="$classPGame.html#aeca9ef4d9ffdc0f89acee62bf6356d5c" title=" " alt="" coords="488,1389,625,1416"/>
+<area shape="rect" id="node34" href="$classPBoard.html#a67bb1cf6ed62df73ebb04a494f39e89c" title=" " alt="" coords="483,1237,630,1264"/>
+<area shape="rect" id="node35" href="$classPDebug.html#af894984e0c759c4013e136147f2b5460" title=" " alt="" coords="497,1288,616,1315"/>
+</map>

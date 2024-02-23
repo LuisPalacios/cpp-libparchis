@@ -1,0 +1,7 @@
+<map id="PBoard::getStartSpaceOfPawn" name="PBoard::getStartSpaceOfPawn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,221,91"/>
+<area shape="rect" id="node2" href="$classPPawn.html#ae3d5be0c2f7929a97552f93d55ada00e" title=" " alt="" coords="307,5,434,32"/>
+<area shape="rect" id="node3" href="$classPBoard.html#af0cd688d39bfc93619e17e1ba2fb2d3c" title=" " alt="" coords="269,57,472,98"/>
+<area shape="rect" id="node4" href="$classPBoard.html#a6ed34c895375563b70ae55bd60c7c913" title=" " alt="" coords="276,123,465,149"/>
+<area shape="rect" id="node5" href="$classPBoard.html#ae141b130bb310ffbb7dbc58628ace083" title=" " alt="" coords="520,123,671,149"/>
+</map>

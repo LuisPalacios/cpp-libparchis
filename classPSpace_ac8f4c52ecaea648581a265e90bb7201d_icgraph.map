@@ -1,0 +1,10 @@
+<map id="PSpace::canAddPawn" name="PSpace::canAddPawn">
+<area shape="rect" id="node1" title=" " alt="" coords="851,85,1009,112"/>
+<area shape="rect" id="node2" href="$classPRules.html#ae32d4f2f880ebd7d49a2bde183fcd26d" title=" " alt="" coords="628,85,803,112"/>
+<area shape="rect" id="node3" href="$classPRules.html#ac185f38961bdb5880006e4b23ed65ca4" title=" " alt="" coords="389,5,529,32"/>
+<area shape="rect" id="node6" href="$classPGame.html#aff1607caa58fcad5064321629f517363" title=" " alt="" coords="143,56,291,83"/>
+<area shape="rect" id="node7" href="$classPGame.html#adefa96f13a127dfa403c823a49d0e99a" title=" " alt="" coords="339,107,580,149"/>
+<area shape="rect" id="node8" href="$classPGame.html#a856a4a22cba4383abcd9d5aea10a3d30" title=" " alt="" coords="339,173,580,214"/>
+<area shape="rect" id="node4" href="$classPGame.html#a092c19e1e20d10d894ab8ba95aae8a3c" title=" " alt="" coords="145,5,288,32"/>
+<area shape="rect" id="node5" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,31,95,57"/>
+</map>

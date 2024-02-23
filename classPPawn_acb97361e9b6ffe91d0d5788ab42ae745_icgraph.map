@@ -1,0 +1,8 @@
+<map id="PPawn::canMove" name="PPawn::canMove">
+<area shape="rect" id="node1" title=" " alt="" coords="557,56,688,83"/>
+<area shape="rect" id="node2" href="$classPGame.html#a3085de2c1bc26c155a326ef504eca2cc" title=" " alt="" coords="339,5,509,32"/>
+<area shape="rect" id="node5" href="$classPRules.html#ac185f38961bdb5880006e4b23ed65ca4" title=" " alt="" coords="354,56,494,83"/>
+<area shape="rect" id="node6" href="$classPGame.html#aff1607caa58fcad5064321629f517363" title=" " alt="" coords="143,107,291,133"/>
+<area shape="rect" id="node3" href="$classPGame.html#a092c19e1e20d10d894ab8ba95aae8a3c" title=" " alt="" coords="145,56,288,83"/>
+<area shape="rect" id="node4" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,81,95,108"/>
+</map>

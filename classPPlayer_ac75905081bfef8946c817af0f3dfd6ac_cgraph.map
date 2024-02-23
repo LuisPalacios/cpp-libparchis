@@ -1,0 +1,9 @@
+<map id="PPlayer::tossDice" name="PPlayer::tossDice">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,140,159"/>
+<area shape="rect" id="node2" href="$classPPlayer.html#aa256ffe443ab13aae4b614ee7ba34065" title=" " alt="" coords="188,5,371,32"/>
+<area shape="rect" id="node3" href="$classPDice.html#a7ce7dff7d7cad9b3313d0f1375040a14" title=" " alt="" coords="221,56,338,83"/>
+<area shape="rect" id="node4" href="$classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="224,107,335,133"/>
+<area shape="rect" id="node5" href="$classPDice.html#a746436a0b55687bda0e6e9d76cddf26a" title=" " alt="" coords="206,157,353,184"/>
+<area shape="rect" id="node6" href="$classPDice.html#a6f521a2bfb75df513c22113026312fab" title=" " alt="" coords="419,183,535,209"/>
+<area shape="rect" id="node7" href="$classPPlayer.html#a6c672128a3b9331cca60bd9083fbce5f" title=" " alt="" coords="209,259,350,285"/>
+</map>

@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['bgameactive_0',['bGameActive',['../classPParchis.html#a99ae4cc4e936483e23dbb2ae397f4f80',1,'PParchis']]],
-  ['board_1',['board',['../classPParchis.html#a79c12365c1a5ef36a796d9fdbbb8d15c',1,'PParchis']]],
-  ['bprinttogui_2',['bPrintToGui',['../classPDebug.html#a71f304846d3089708be6b258fade348f',1,'PDebug']]],
-  ['bsavedobjcobject_3',['bSavedObjCObject',['../classPDebug.html#a1b89b48587e1f30c7d6d02f568dc1044',1,'PDebug']]],
-  ['bug_20list_4',['Bug List',['../bug.html',1,'']]]
+  ['adddice_0',['addDice',['../classPSpace.html#aa1597c3f302c9063de4681f215eeea1a',1,'PSpace']]],
+  ['adddicesgotten_1',['addDicesGotten',['../classPPlayer.html#aa256ffe443ab13aae4b614ee7ba34065',1,'PPlayer']]],
+  ['addpawn_2',['addPawn',['../classPSpace.html#aa922dea03a315f4e0178a9d440310227',1,'PSpace']]],
+  ['anyathome_3',['anyAtHome',['../classPPawn.html#af8d4e00dcb65537f2b5ce5b96e54012a',1,'PPawn']]]
 ];

@@ -1,0 +1,12 @@
+<map id="PBoard::spaceTypeNormal" name="PBoard::spaceTypeNormal">
+<area shape="rect" id="node1" title=" " alt="" coords="964,31,1156,57"/>
+<area shape="rect" id="node2" href="$classPBoard.html#a5139e45d2c137e54a921670b11c2b4bd" title=" " alt="" coords="755,5,916,32"/>
+<area shape="rect" id="node4" href="$classPSpace.html#afc464de5bf479d26c13a9c15c943db1f" title=" " alt="" coords="767,56,903,83"/>
+<area shape="rect" id="node3" href="$classPBoard.html#a9ca2986d4834036b6f9dcddbd66948a5" title=" " alt="" coords="568,5,691,32"/>
+<area shape="rect" id="node5" href="$classPSpace.html#a1bcc384fccc2d82dd319a4a91d923112" title=" " alt="" coords="552,56,707,83"/>
+<area shape="rect" id="node9" href="$classPPawn.html#ac2f286bfc30287f272fb4bb8d789f3b2" title=" " alt="" coords="557,107,702,133"/>
+<area shape="rect" id="node6" href="$classPRules.html#ac185f38961bdb5880006e4b23ed65ca4" title=" " alt="" coords="349,56,489,83"/>
+<area shape="rect" id="node7" href="$classPGame.html#a092c19e1e20d10d894ab8ba95aae8a3c" title=" " alt="" coords="143,81,285,108"/>
+<area shape="rect" id="node8" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,81,95,108"/>
+<area shape="rect" id="node10" href="$classPGame.html#a3085de2c1bc26c155a326ef504eca2cc" title=" " alt="" coords="333,107,504,133"/>
+</map>

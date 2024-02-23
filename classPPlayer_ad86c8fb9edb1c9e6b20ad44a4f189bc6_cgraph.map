@@ -1,0 +1,18 @@
+<map id="PPlayer::copyPlayer" name="PPlayer::copyPlayer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,309,156,336"/>
+<area shape="rect" id="node2" href="$classPPlayer.html#a7f50ed396e226bab707415c6ddf7d648" title=" " alt="" coords="229,5,359,32"/>
+<area shape="rect" id="node3" href="$classPPlayer.html#a5cf05ac784cb59b838a7fe930a1de4f3" title=" " alt="" coords="204,56,384,83"/>
+<area shape="rect" id="node4" href="$classPPlayer.html#a0d9438e43d73b2b28ac95a4c3e4c763a" title=" " alt="" coords="226,107,362,133"/>
+<area shape="rect" id="node5" href="$classPPlayer.html#a4be2dd544adb5f2e272c1ad5886888c0" title=" " alt="" coords="432,196,571,223"/>
+<area shape="rect" id="node6" href="$classPPlayer.html#a653baca55d5df907e69685b82f3d8fa6" title=" " alt="" coords="223,208,365,235"/>
+<area shape="rect" id="node7" href="$classPPlayer.html#a2581de5078883f44acc23bb5913cd36f" title=" " alt="" coords="206,259,382,285"/>
+<area shape="rect" id="node8" href="$classPPlayer.html#a5a508f686c1c8d70e796bc38d9adc0ba" title=" " alt="" coords="230,309,358,336"/>
+<area shape="rect" id="node11" href="$classPPlayer.html#a4bf16bcdbaaa31e79281e281deb40e74" title=" " alt="" coords="205,360,383,387"/>
+<area shape="rect" id="node12" href="$classPPlayer.html#a42273c364d95bb975664cf84b0730e08" title=" " alt="" coords="227,411,361,437"/>
+<area shape="rect" id="node13" href="$classPPlayer.html#abc6d0943733b7a33413435026bff139c" title=" " alt="" coords="225,461,363,488"/>
+<area shape="rect" id="node14" href="$classPPlayer.html#aa09dbac592874887fe71f66ffefff372" title=" " alt="" coords="224,512,364,539"/>
+<area shape="rect" id="node15" href="$classPPlayer.html#acfed5428d5177c38baa4bcde4516692e" title=" " alt="" coords="207,563,381,589"/>
+<area shape="rect" id="node16" href="$classPPlayer.html#a6c672128a3b9331cca60bd9083fbce5f" title=" " alt="" coords="223,613,365,640"/>
+<area shape="rect" id="node9" href="$classPDice.html#a3c3f98a4ccff642156124161b280af9f" title=" " alt="" coords="438,284,565,311"/>
+<area shape="rect" id="node10" href="$classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="446,335,557,361"/>
+</map>

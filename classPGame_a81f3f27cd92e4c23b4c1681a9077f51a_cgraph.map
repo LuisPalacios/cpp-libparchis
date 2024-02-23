@@ -1,0 +1,10 @@
+<map id="PGame::setStatusWaitingSelectPawn" name="PGame::setStatusWaitingSelectPawn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,267,83"/>
+<area shape="rect" id="node2" href="$classPGame.html#af203b700462c4445dee9c3fa9dd81d23" title=" " alt="" coords="315,5,577,32"/>
+<area shape="rect" id="node3" href="$classPGame.html#af61cd06870dc0464e300e81de918ce9a" title=" " alt="" coords="375,56,517,83"/>
+<area shape="rect" id="node6" href="$classPGame.html#a1fd8a52d89a69271bdabb57baab4a68e" title=" " alt="" coords="357,107,535,133"/>
+<area shape="rect" id="node4" href="$classPGame.html#a94ffa68e9e4f30fb58dd95441f00963f" title=" " alt="" coords="651,5,830,32"/>
+<area shape="rect" id="node5" href="$classPGame.html#a5e7fede2219d80940ba7cad6cf3754dd" title=" " alt="" coords="625,56,856,83"/>
+<area shape="rect" id="node7" href="$classPDebug.html#af894984e0c759c4013e136147f2b5460" title=" " alt="" coords="681,107,800,133"/>
+<area shape="rect" id="node8" href="$classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="904,107,1015,133"/>
+</map>

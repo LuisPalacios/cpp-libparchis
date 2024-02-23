@@ -1,0 +1,8 @@
+<map id="PPawn::setBehindEatable" name="PPawn::setBehindEatable">
+<area shape="rect" id="node1" title=" " alt="" coords="748,31,935,57"/>
+<area shape="rect" id="node2" href="$classPGame.html#a06e00aeb9f5c73e261bf199423cb14e8" title=" " alt="" coords="552,5,700,32"/>
+<area shape="rect" id="node6" href="$classPPawn.html#a78ad0b6bf817f53cee6323ab44d708f2" title=" " alt="" coords="557,56,695,83"/>
+<area shape="rect" id="node3" href="$classPGame.html#a3085de2c1bc26c155a326ef504eca2cc" title=" " alt="" coords="333,5,504,32"/>
+<area shape="rect" id="node4" href="$classPGame.html#a092c19e1e20d10d894ab8ba95aae8a3c" title=" " alt="" coords="143,5,285,32"/>
+<area shape="rect" id="node5" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,5,95,32"/>
+</map>

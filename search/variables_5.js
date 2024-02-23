@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['tossdice_127',['tossDice',['../classPCmd.html#a318a4c4ca76b4d837e8810185fb6afbe',1,'PCmd']]]
+  ['lastdice_944',['lastDice',['../classPGame.html#aaec6bdb75d14fbfe0c126363fa08fb1b',1,'PGame']]],
+  ['lastdiceforward_945',['lastDiceForward',['../classPGame.html#a0c1e769ef8b9c2059971e8de40b7dde2',1,'PGame']]],
+  ['lasteatedpawn_946',['lastEatedPawn',['../classPGame.html#a4a621c830c6578a2f56b438b7acda52c',1,'PGame']]],
+  ['lastpawnmoved_947',['lastPawnMoved',['../classPBoard.html#a42763154983d4f869d77a9e696c482e0',1,'PBoard::lastPawnMoved()'],['../classPBoardMemento.html#aa905076c62a7866720174c3cf2ca4e5b',1,'PBoardMemento::lastPawnMoved()']]],
+  ['lastspaceindex_948',['lastSpaceIndex',['../classPPawn.html#a618aaa0f7846e9bbb3af9a8d9259a05e',1,'PPawn']]]
 ];

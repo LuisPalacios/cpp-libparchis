@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['initattributes_96',['initAttributes',['../classPCmd.html#aecf006c0da51621e11d80cc3d02b6d2f',1,'PCmd::initAttributes()'],['../classPDebug.html#a9f20d9b7bf5ae8d12c7735529d5c4a4f',1,'PDebug::initAttributes()'],['../classPParchis.html#adc0268dc1a3762c0f78ec6fd24cea58e',1,'PParchis::initAttributes()']]],
-  ['isprinttogui_97',['isPrintToGui',['../classPDebug.html#ae8c9e6b73e6e1ba5bbf331c9227fd53f',1,'PDebug']]]
+  ['execrules_621',['execRules',['../classPGame.html#a092c19e1e20d10d894ab8ba95aae8a3c',1,'PGame::execRules()'],['../classPRules.html#ac185f38961bdb5880006e4b23ed65ca4',1,'PRules::execRules()']]]
 ];

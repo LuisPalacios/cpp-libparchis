@@ -1,0 +1,43 @@
+<map id="PCmd::newTurn" name="PCmd::newTurn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,128,159"/>
+<area shape="rect" id="node2" href="$classPBoard.html#a2428dd839835cfd300a435063c983282" title=" " alt="" coords="176,5,312,32"/>
+<area shape="rect" id="node3" href="$classPGame.html#aebac1a973cc9e8347d32f6d4dfcf251c" title=" " alt="" coords="397,56,584,83"/>
+<area shape="rect" id="node4" href="$classPGame.html#a4d642406f0f74ae0c8d0d2130f7860ca" title=" " alt="" coords="389,107,593,133"/>
+<area shape="rect" id="node5" href="$classPGame.html#a86e8016aefcffaa56b29eda35d812279" title=" " alt="" coords="380,157,601,184"/>
+<area shape="rect" id="node6" href="$classPGame.html#af61cd06870dc0464e300e81de918ce9a" title=" " alt="" coords="730,1237,871,1264"/>
+<area shape="rect" id="node9" href="$classPGame.html#a624523fda8a5410feca229839ccf411e" title=" " alt="" coords="179,537,309,564"/>
+<area shape="rect" id="node7" href="$classPGame.html#a94ffa68e9e4f30fb58dd95441f00963f" title=" " alt="" coords="1006,1263,1185,1289"/>
+<area shape="rect" id="node8" href="$classPGame.html#a5e7fede2219d80940ba7cad6cf3754dd" title=" " alt="" coords="980,1212,1211,1239"/>
+<area shape="rect" id="node10" href="$classPBoard.html#a83b7a062cc2c99a809a7ad332a8a3191" title=" " alt="" coords="405,411,576,437"/>
+<area shape="rect" id="node11" href="$classPGame.html#a6184ace8b90bbf1d177a164a7631f696" title=" " alt="" coords="397,461,584,488"/>
+<area shape="rect" id="node12" href="$classPGame.html#abc661abef6f3834aeb9a8c3ccb7b9309" title=" " alt="" coords="738,335,863,361"/>
+<area shape="rect" id="node13" href="$classPBoard.html#a0c6b940d44221c129031172c9ea879e6" title=" " alt="" coords="427,563,554,589"/>
+<area shape="rect" id="node14" href="$classPBoard.html#aeb6d9cc881d76fc24bea0521405715be" title=" " alt="" coords="385,614,596,655"/>
+<area shape="rect" id="node15" href="$classPGame.html#a29977011a877b4e3f11ad5dbd6634ea0" title=" " alt="" coords="413,680,568,707"/>
+<area shape="rect" id="node16" href="$classPGame.html#a41e0dc48c2c320a77a9d7c63423a52a5" title=" " alt="" coords="409,731,572,757"/>
+<area shape="rect" id="node17" href="$classPBoard.html#a6ed34c895375563b70ae55bd60c7c913" title=" " alt="" coords="396,512,585,539"/>
+<area shape="rect" id="node19" href="$classPGame.html#acead5004e27dc090e8ce1ed5a4eb1090" title=" " alt="" coords="406,832,575,859"/>
+<area shape="rect" id="node20" href="$classPBoard.html#a100705d79493a5f383ed825129fc13cd" title=" " alt="" coords="393,781,588,808"/>
+<area shape="rect" id="node28" href="$classPDebug.html#af894984e0c759c4013e136147f2b5460" title=" " alt="" coords="1036,908,1155,935"/>
+<area shape="rect" id="node29" href="$classPDebug.html#a0ca3190c0c84b600508e57635af2b846" title=" " alt="" coords="1295,1009,1405,1036"/>
+<area shape="rect" id="node32" href="$classPBoard.html#a43fe27fff67aa0cd7e583f9e98bb3304" title=" " alt="" coords="414,259,567,285"/>
+<area shape="rect" id="node33" href="$classPGame.html#a61311508e80a74500340cb6110b39dad" title=" " alt="" coords="402,933,579,960"/>
+<area shape="rect" id="node35" href="$classPGame.html#a1267ce7cb425fe181568262b2d161253" title=" " alt="" coords="409,309,572,336"/>
+<area shape="rect" id="node36" href="$classPGame.html#a1f7de11b8c2c39dea18e6e14175825a9" title=" " alt="" coords="377,1187,604,1213"/>
+<area shape="rect" id="node39" href="$classPGame.html#a2f3c1f74241a987f4397947c33048744" title=" " alt="" coords="360,1035,621,1061"/>
+<area shape="rect" id="node41" href="$classPGame.html#a02859d56b2771adf6a391ddb92db8e10" title=" " alt="" coords="429,360,553,387"/>
+<area shape="rect" id="node18" href="$classPBoard.html#ae141b130bb310ffbb7dbc58628ace083" title=" " alt="" coords="725,512,876,539"/>
+<area shape="rect" id="node21" href="$classPSpace.html#aa1597c3f302c9063de4681f215eeea1a" title=" " alt="" coords="735,731,866,757"/>
+<area shape="rect" id="node22" href="$classPDice.html#a3c3f98a4ccff642156124161b280af9f" title=" " alt="" coords="1032,629,1159,656"/>
+<area shape="rect" id="node23" href="$classPSpace.html#a238d70d3219b304f35cf5fb4b46c4f05" title=" " alt="" coords="1027,680,1164,707"/>
+<area shape="rect" id="node24" href="$classPDice.html#a55f95d2080fbda95ea2767fc5ebdf34b" title=" " alt="" coords="1032,832,1159,859"/>
+<area shape="rect" id="node30" href="$classPSpace.html#a87095782983add01f90581ee9635a977" title=" " alt="" coords="1032,579,1159,605"/>
+<area shape="rect" id="node25" href="$classPSpace.html#ac23100f1f9bbf37d72b834215580ec5e" title=" " alt="" coords="1032,731,1159,757"/>
+<area shape="rect" id="node31" href="$classPDice.html#a2e36664ab73da410420099e602e668ff" title=" " alt="" coords="1032,781,1159,808"/>
+<area shape="rect" id="node26" href="$classPSpace.html#a5840fa1c5621b08b44f8af1e85654701" title=" " alt="" coords="1287,756,1413,783"/>
+<area shape="rect" id="node27" href="$classPBoard.html#a307349fa6a3fed906aa9bd37efc56708" title=" " alt="" coords="1259,705,1441,732"/>
+<area shape="rect" id="node34" href="$classPBoard.html#a7bb6ae2c32379161fe2d6d55ab24e18d" title=" " alt="" coords="711,984,890,1011"/>
+<area shape="rect" id="node37" href="$classPGame.html#a7444219991c3d37f93b422fe822d7178" title=" " alt="" coords="687,1187,914,1213"/>
+<area shape="rect" id="node38" href="$classPGame.html#a1fd8a52d89a69271bdabb57baab4a68e" title=" " alt="" coords="712,1085,889,1112"/>
+<area shape="rect" id="node40" href="$classPGame.html#acd8ff3b0cc18c4b53e316dc8257eca5a" title=" " alt="" coords="669,1035,932,1061"/>
+</map>

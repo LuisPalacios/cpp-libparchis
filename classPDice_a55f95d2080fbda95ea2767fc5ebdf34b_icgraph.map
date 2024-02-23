@@ -1,0 +1,12 @@
+<map id="PDice::getSpace" name="PDice::getSpace">
+<area shape="rect" id="node1" title=" " alt="" coords="964,56,1091,83"/>
+<area shape="rect" id="node2" href="$classPSpace.html#aa1597c3f302c9063de4681f215eeea1a" title=" " alt="" coords="785,31,916,57"/>
+<area shape="rect" id="node3" href="$classPBoard.html#a100705d79493a5f383ed825129fc13cd" title=" " alt="" coords="543,56,737,83"/>
+<area shape="rect" id="node4" href="$classPBoard.html#a5139e45d2c137e54a921670b11c2b4bd" title=" " alt="" coords="333,5,495,32"/>
+<area shape="rect" id="node6" href="$classPBoard.html#ab32e96a4d86452519e6756191504f44a" title=" " alt="" coords="343,56,485,83"/>
+<area shape="rect" id="node9" href="$classPGame.html#a624523fda8a5410feca229839ccf411e" title=" " alt="" coords="349,107,479,133"/>
+<area shape="rect" id="node5" href="$classPBoard.html#a9ca2986d4834036b6f9dcddbd66948a5" title=" " alt="" coords="153,5,275,32"/>
+<area shape="rect" id="node7" href="$classPGame.html#a95171e6567bd8be86c93857ed0e5d305" title=" " alt="" coords="143,56,285,83"/>
+<area shape="rect" id="node8" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,81,95,108"/>
+<area shape="rect" id="node10" href="$classPCmd.html#a1d1418d4f103ec832e82e4115f4f72fd" title=" " alt="" coords="153,107,275,133"/>
+</map>

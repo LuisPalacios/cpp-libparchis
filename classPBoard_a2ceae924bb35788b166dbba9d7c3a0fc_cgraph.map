@@ -1,0 +1,7 @@
+<map id="PBoard::getHomeSpaceOfPawn" name="PBoard::getHomeSpaceOfPawn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,229,91"/>
+<area shape="rect" id="node2" href="$classPPawn.html#ae3d5be0c2f7929a97552f93d55ada00e" title=" " alt="" coords="319,5,446,32"/>
+<area shape="rect" id="node3" href="$classPBoard.html#aeb6d9cc881d76fc24bea0521405715be" title=" " alt="" coords="277,57,488,98"/>
+<area shape="rect" id="node4" href="$classPBoard.html#a6ed34c895375563b70ae55bd60c7c913" title=" " alt="" coords="288,123,477,149"/>
+<area shape="rect" id="node5" href="$classPBoard.html#ae141b130bb310ffbb7dbc58628ace083" title=" " alt="" coords="536,123,687,149"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="PPlayer::getPawns" name="PPlayer::getPawns">
+<area shape="rect" id="node1" title=" " alt="" coords="656,56,797,83"/>
+<area shape="rect" id="node2" href="$classPGame.html#a3085de2c1bc26c155a326ef504eca2cc" title=" " alt="" coords="437,5,608,32"/>
+<area shape="rect" id="node5" href="$classPPlayer.html#ad86c8fb9edb1c9e6b20ad44a4f189bc6" title=" " alt="" coords="447,107,598,133"/>
+<area shape="rect" id="node8" href="$classPRules.html#ac185f38961bdb5880006e4b23ed65ca4" title=" " alt="" coords="453,56,593,83"/>
+<area shape="rect" id="node3" href="$classPGame.html#a092c19e1e20d10d894ab8ba95aae8a3c" title=" " alt="" coords="195,19,337,45"/>
+<area shape="rect" id="node4" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,19,95,45"/>
+<area shape="rect" id="node6" href="$classPBoard.html#a00e6ff21148e3375f11245407a550d1a" title=" " alt="" coords="169,81,363,108"/>
+<area shape="rect" id="node7" href="$classPBoardMemento.html#a4c5e818a2c33705515f2cfe6b02e5da7" title=" " alt="" coords="143,132,389,159"/>
+</map>

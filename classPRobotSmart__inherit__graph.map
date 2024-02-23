@@ -1,0 +1,4 @@
+<map id="PRobotSmart" name="PRobotSmart">
+<area shape="rect" id="node1" title="Parchis Class: Derived from PPlayer. Represents a Smart robot player." alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node2" href="$classPPlayer.html" title="Parchis Class: Base player derived to create PHuman&#39;s PRobotSimple&#39;s PRobotSmart&#39;s." alt="" coords="23,5,94,32"/>
+</map>

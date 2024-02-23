@@ -1,0 +1,15 @@
+<map id="PBoard::getColorName" name="PBoard::getColorName">
+<area shape="rect" id="node1" title=" " alt="" coords="561,183,732,209"/>
+<area shape="rect" id="node2" href="$classPPawn.html#aec28dad195f289d572c4f1091f4a379b" title=" " alt="" coords="347,5,505,32"/>
+<area shape="rect" id="node4" href="$classPSpace.html#ad93329121dc3012829bf32db92ad28e9" title=" " alt="" coords="345,56,507,83"/>
+<area shape="rect" id="node6" href="$classPGame.html#aff1607caa58fcad5064321629f517363" title=" " alt="" coords="143,107,291,133"/>
+<area shape="rect" id="node8" href="$classPGame.html#a624523fda8a5410feca229839ccf411e" title=" " alt="" coords="361,157,491,184"/>
+<area shape="rect" id="node10" href="$classPGame.html#a450f70622fe2837d3644473f47a91470" title=" " alt="" coords="339,208,513,235"/>
+<area shape="rect" id="node11" href="$classPGame.html#a55f3066641a22e6175507483215439dc" title=" " alt="" coords="163,271,270,297"/>
+<area shape="rect" id="node12" href="$classPBoard.html#a43bcc14f4e5933122d8535c2c26de38b" title=" " alt="" coords="347,309,505,336"/>
+<area shape="rect" id="node13" href="$classPGame.html#a068ce3397bea2a878e1ceefc20141a05" title=" " alt="" coords="162,347,271,373"/>
+<area shape="rect" id="node3" href="$classPPawn.html#a811fe26b08edfbcf644ef81c969b3e72" title=" " alt="" coords="159,5,274,32"/>
+<area shape="rect" id="node5" href="$classPSpace.html#a035b5890c9d37b2b34907e5c4ba83af1" title=" " alt="" coords="155,56,279,83"/>
+<area shape="rect" id="node7" href="$classPCmd.html#a1dba4153179e6b155c857a18b3b62f45" title=" " alt="" coords="5,157,95,184"/>
+<area shape="rect" id="node9" href="$classPCmd.html#a1d1418d4f103ec832e82e4115f4f72fd" title=" " alt="" coords="155,157,278,184"/>
+</map>

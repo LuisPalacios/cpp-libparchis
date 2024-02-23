@@ -1,0 +1,11 @@
+<map id="PPlayer" name="PPlayer">
+<area shape="rect" id="node1" title="Parchis Class: Base player derived to create PHuman&#39;s PRobotSimple&#39;s PRobotSmart&#39;s." alt="" coords="387,95,458,121"/>
+<area shape="rect" id="node5" href="$classPBoard.html" title="Parchis Class Declaration: Represents the board, instantiates PGame, PSpace&#39;s, PPawn&#39;s,..." alt="" coords="389,196,457,223"/>
+<area shape="rect" id="node7" href="$classPGame.html" title="Parchis Class: Responsible of the game start, managment, status, options, etc." alt="" coords="596,540,665,567"/>
+<area shape="rect" id="node2" href="$classPDice.html" title="Parchis Class declaration: Represents the dice of the game." alt="" coords="151,436,209,463"/>
+<area shape="rect" id="node4" href="$classPSpace.html" title="Parchis Class: represents each of the Spaces in the Parchis game." alt="" coords="204,309,273,335"/>
+<area shape="rect" id="node3" href="$classPDebug.html" title="Parchis Class declaration: Shows debug messages on screen (or in the UI)" alt="" coords="708,5,780,32"/>
+<area shape="rect" id="node6" href="$classPPawn.html" title="Parchis Class: Represents a Pawn." alt="" coords="599,436,663,463"/>
+<area shape="rect" id="node8" href="$classPRules.html" title="Parchis Class: Rules after dice tossed and calculates destinations." alt="" coords="665,629,732,656"/>
+<area shape="rect" id="node9" href="$classPSnapshot.html" title="Parchis Class: Represents the overall status of the Game." alt="" coords="864,145,955,172"/>
+</map>
