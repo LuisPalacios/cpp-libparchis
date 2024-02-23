@@ -6,7 +6,7 @@
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING       = UTF-8
 PROJECT_NAME            = "Librería Parchis C++"
-PROJECT_NUMBER          = "v1.0.2"
+PROJECT_NUMBER          = "v1.0.3"
 PROJECT_BRIEF           =
 PROJECT_LOGO            =
 OUTPUT_DIRECTORY        = ./
