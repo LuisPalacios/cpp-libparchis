@@ -12,6 +12,8 @@
 
 #include "PDebug.h"
 #include <cstring>
+#include <fmt/core.h>
+#include <spdlog/spdlog.h>
 #include <stdarg.h>
 
 //---------------------------------------------------------------------------
@@ -154,8 +156,13 @@ void PDebug::print(int dbg_level, std::string dbg_msg)
         //std::cout << dbgMsg; // << std::endl;
 
         // Show it on Console
-        std::cout << "PDebug(" << dbg_level << ") " << callerName << ": "
-                  << dbg_msg.c_str() << std::endl;
+        // std::cout << "PDebug(" << dbg_level << ") " << callerName << ": "
+        //           << dbg_msg.c_str() << std::endl;
+
+
+        auto mensaje =
+            fmt::format("PDebug({}) {}: {}", dbg_level, callerName, dbg_msg);
+        spdlog::info(mensaje);
     }
 }
 
