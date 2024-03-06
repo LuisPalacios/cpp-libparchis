@@ -607,7 +607,7 @@ PPawn *PPlayer::getPawnToMove(PSnapshot **snap)
 //---------------------------------------------------------------------------
 
 
-#pragma mark-- Methods to handle memento's
+#pragma mark-- Methods to handle mementos
 
 //---------------------------------------------------------------------------
 
