@@ -22,7 +22,6 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Librería Parchis C++
-   &#160;<span id="projectnumber">v1.0.5</span>
    </div>
   </td>
  </tr>
@@ -168,15 +167,16 @@ Private Attributes</h2></td></tr>
   | | +--------- patch number
   | +----------- minor number
   +------------- major number
-</pre><p> Establecer el TAG con la Versión Major.Minor.Patch y una descripción </p><pre class="fragment"> git tag -a v1.0.0 -m "Versión inicial"
+</pre><p> Establecer el TAG con la Versión Major.Minor.Patch y una descripción (ejemplo) </p><pre class="fragment"> git tag -a v1.1.7 -m "Mejora formato PDebug"
+ git push --tags
 </pre><p> Visualizar TAG de la rama actual </p><pre class="fragment"> git describe --tags --long
- v1.0.0-0-g3ad9785
+ v1.0.5-1-g7a7598c
 
  git describe --abbrev=0 --tags
- v1.0.0
+ v1.0.5
 
  git rev-parse --short HEAD
- g3ad9785
+ g7a7598c
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8b7ee48cc4399b2b5b27c2c1265a3278"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b7ee48cc4399b2b5b27c2c1265a3278">&#9670;&nbsp;</a></span>PVersion()</h2>
