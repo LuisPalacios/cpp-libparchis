@@ -152,7 +152,9 @@ void PCmd::run(int iNumGames)
             // EXECUTE THE RULES
             // Check the rules engine, which will determine the movable pawns,
             // which ones can eat, etc.
-            dbg.print(2, "CHECKING THE RULES");
+            dbg.print(
+                2,
+                "| Checking the rules                                     |");
             g->execRules();
 
 
