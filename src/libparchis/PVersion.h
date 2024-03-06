@@ -112,20 +112,21 @@
  *       | +----------- minor number
  *       +------------- major number
  *
- * Establecer el TAG con la Versión Major.Minor.Patch y una descripción
+ * Establecer el TAG con la Versión Major.Minor.Patch y una descripción (ejemplo)
  *
- *      git tag -a v1.0.0 -m "Versión inicial"
+ *      git tag -a v1.1.7 -m "Mejora formato PDebug"
+ *      git push --tags
  *
  * Visualizar TAG de la rama actual
  *
  *      git describe --tags --long
- *      v1.0.0-0-g3ad9785
+ *      v1.0.5-1-g7a7598c
  *
  *      git describe --abbrev=0 --tags
- *      v1.0.0
+ *      v1.0.5
  *
  *      git rev-parse --short HEAD
- *      g3ad9785
+ *      g7a7598c
  *
  *
  */
